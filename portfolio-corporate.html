@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/css/button.css">
     <link rel="stylesheet" href="assets/css/inner.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/chatbot.css">
 
 </head>
 <!--HEADE END-->
@@ -373,6 +374,37 @@
     <script src="assets/js/main.js"></script>
 
 
+    <!--::::: Chat Bot Widget :::::::-->
+    <div class="chatbot-container" id="chatWidget">
+        <div class="chatbot-options">
+            <div class="chatbot-header">
+                <img src="assets/img/avatar.svg" alt="Avatar" style="width: 30px; height: 30px;">
+                <div>
+                    <h4>Avatar</h4>
+                    <span>Online</span>
+                </div>
+            </div>
+            <a href="tel:+918801518663" class="chatbot-option">
+                <i class="fas fa-phone-alt"></i> Call Us
+            </a>
+            <a href="https://wa.me/918801518663" class="chatbot-option">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="contact.html" class="chatbot-option">
+                <i class="fas fa-envelope"></i> Contact Form
+            </a>
+        </div>
+        <div class="chatbot-trigger" onclick="toggleChatbot()">
+            <img src="assets/img/avatar.svg" alt="Avatar">
+        </div>
+    </div>
+
+    <script>
+        function toggleChatbot() {
+            var widget = document.getElementById('chatWidget');
+            widget.classList.toggle('active');
+        }
+    </script>
 </body><!--BODY END-->
 
 </html><!--HTML END-->
