@@ -336,6 +336,49 @@
         </div>
         <!--:::::CONTACT AREA END :::::::-->
 
+        <!--:::::MEDIA GALLERY AREA START :::::::-->
+        <div class="media-gallery-area section-padding" style="background: #f1f1f1;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="heading">
+                            <strong class="filltext">Gallery</strong>
+                            <small>WORK & INSIGHTS</small>
+                            <h2>Corporate <span>Expertise</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-60"></div>
+
+                <!-- Images Slider -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="expert-image-carousel owl-carousel">
+                            <div class="media-grid-item">
+                                <img src="assets/img/africa.jpg" alt="Global Reach">
+                            </div>
+                            <div class="media-grid-item">
+                                <img src="assets/img/calls.avif" alt="Client Calls">
+                            </div>
+                            <div class="media-grid-item">
+                                <img src="assets/img/callsd.jpg" alt="Support Team">
+                            </div>
+                            <div class="media-grid-item">
+                                <img src="assets/img/coffe.jpg" alt="Consultation">
+                            </div>
+                            <div class="media-grid-item">
+                                <img src="assets/img/large.jpg" alt="Corporate Strategy">
+                            </div>
+                            <div class="media-grid-item">
+                                <img src="assets/img/meeting.avif" alt="Expert Meeting">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--:::::MEDIA GALLERY AREA END :::::::-->
+
 
 
 
@@ -427,6 +470,31 @@
     <script src="assets/js/plugins/jquery.hoverdir.js"></script>
     <script src="assets/js/plugins/isotop.v3.0.4.min.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".expert-image-carousel").owlCarousel({
+                loop: true,
+                margin: 30,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 500, // 0.5 seconds
+                smartSpeed: 500,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
 
     <!--::::: Chat Bot Widget :::::::-->
     <div class="chatbot-container" id="chatWidget">
