@@ -348,29 +348,77 @@
   });
 
 
-  // Search Functionality
-  $('.search-btn a').on('click', function (e) {
+  // Smart Navigator Search Functionality
+  function performSearch(e) {
     e.preventDefault();
     var searchInput = $(this).closest('.search-box').find('input');
-    var query = searchInput.val();
+    var query = searchInput.val().toLowerCase().trim();
 
     if (query) {
-      if (window.find) {
-        var found = window.find(query);
-        if (!found) {
-          alert('Text not found on this page.');
+      // Keyword Mapping (Smart Navigator)
+      var pageMapping = {
+        'home': 'index.html',
+        'service': 'index.html#service',
+        'esic': 'index.html#service',
+        'epfo': 'index.html#service',
+        'gst': 'index.html#service',
+        'compliance': 'index.html#service',
+        'about': 'about.html',
+        'client': 'portfolio.html',
+        'portfolio': 'portfolio.html',
+        'work': 'portfolio.html',
+        'contact': 'contact.html',
+        'blog': 'blog.html',
+        'news': 'blog.html',
+        'hospital': 'portfolio-hospital.html',
+        'school': 'portfolio-school.html',
+        'college': 'portfolio-school.html',
+        'manufacturing': 'portfolio-manufacturing.html',
+        'factory': 'portfolio-manufacturing.html',
+        'corporate': 'portfolio-corporate.html',
+        'government': 'portfolio-government.html'
+      };
+
+      var destination = null;
+
+      // Exact or partial match check
+      for (var key in pageMapping) {
+        if (query.includes(key)) {
+          destination = pageMapping[key];
+          break;
         }
+      }
+
+      if (destination) {
+        window.location.href = destination;
       } else {
-        alert('Your browser does not support this search feature.');
+        // Fallback: Client-side highlight
+        if (window.find) {
+          var found = window.find(query);
+          if (!found) {
+            alert('Topic not found in our Smart Navigator. Showing results on current page if available.');
+          }
+        } else {
+          alert('Please try navigating via the menu for "' + query + '"');
+        }
       }
     } else {
       searchInput.focus();
     }
-  });
+  }
 
+  // Bind to click match
+  $('.search-btn a').on('click', performSearch);
+
+  // Bind to Enter key
   $('.search-box form').on('submit', function (e) {
     e.preventDefault();
-    $('.search-btn a').click();
+    // Trigger the logic associated with the button
+    var searchInput = $(this).find('input');
+    // We need to call performSearch but set 'this' context correctly or just reuse logic.
+    // Easiest is to simulate click on the button if it shares scope, 
+    // but let's just call the function with the button as context for simplicity
+    performSearch.call($('.search-btn a'), e);
   });
 
 }(jQuery));
