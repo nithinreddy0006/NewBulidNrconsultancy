@@ -316,6 +316,24 @@
                     });
                 });
             </script>
+
+            <!-- Expert Rapid Image Slider Script (100ms) -->
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    $('#expert-rapid-slider').owlCarousel({
+                        items: 1,
+                        loop: true,
+                        autoplay: true,
+                        autoplayTimeout: 100, // 0.1 second
+                        autoplayHoverPause: false,
+                        animateOut: 'fadeOut',
+                        animateIn: 'fadeIn',
+                        smartSpeed: 50,
+                        nav: false,
+                        dots: false
+                    });
+                });
+            </script>
             <!--::::: WELCOME CAROUSEL END:::::::-->
         </div>
         <!--:::::WELCOME AREA END :::::::-->
@@ -326,10 +344,18 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
-                        <div class="expert-img"
+                        <div class="expert-img-slider owl-carousel" id="expert-rapid-slider"
                             style="border-radius: 10px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                            <!-- Using corporate image as placeholder style for Expert profile -->
-                            <img src="assets/img/project/corporate.jpg" alt="Nithin Reddy" style="width: 100%;">
+                            <div class="item"><img src="assets/img/project/corporate.jpg" alt="Corporate"
+                                    style="width: 100%;"></div>
+                            <div class="item"><img src="assets/img/project/manufacturing.jpg" alt="Manufacturing"
+                                    style="width: 100%;"></div>
+                            <div class="item"><img src="assets/img/project/warehouse.jpg" alt="Warehouse"
+                                    style="width: 100%;"></div>
+                            <div class="item"><img src="assets/img/project/hospital.jpg" alt="Hospital"
+                                    style="width: 100%;"></div>
+                            <div class="item"><img src="assets/img/project/school.jpg" alt="School"
+                                    style="width: 100%;"></div>
                         </div>
                     </div>
                     <div class="col-lg-7 align-self-center">
