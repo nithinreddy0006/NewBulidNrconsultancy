@@ -376,6 +376,52 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="space-60"></div>
+
+                <!-- Videos Slider -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="expert-video-carousel owl-carousel">
+                            <div class="media-grid-item">
+                                <video autoplay muted loop playsinline>
+                                    <source src="assets/video/home_new.mp4" type="video/mp4">
+                                </video>
+                                <div class="video-label">Board Strategy</div>
+                            </div>
+                            <div class="media-grid-item">
+                                <video autoplay muted loop playsinline>
+                                    <source src="assets/video/client_new.mp4" type="video/mp4">
+                                </video>
+                                <div class="video-label">Client Consulting</div>
+                            </div>
+                            <div class="media-grid-item">
+                                <video autoplay muted loop playsinline>
+                                    <source src="assets/video/about_new.mp4" type="video/mp4">
+                                </video>
+                                <div class="video-label">Registration Process</div>
+                            </div>
+                            <div class="media-grid-item">
+                                <video autoplay muted loop playsinline>
+                                    <source src="assets/video/industrial_bg.mp4" type="video/mp4">
+                                </video>
+                                <div class="video-label">Industrial Site</div>
+                            </div>
+                            <div class="media-grid-item">
+                                <video autoplay muted loop playsinline>
+                                    <source src="assets/video/service_new.mp4" type="video/mp4">
+                                </video>
+                                <div class="video-label">Customer Service</div>
+                            </div>
+                            <div class="media-grid-item">
+                                <video autoplay muted loop playsinline>
+                                    <source src="assets/video/boardroom_bg.mp4" type="video/mp4">
+                                </video>
+                                <div class="video-label">Remote Operations</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!--:::::MEDIA GALLERY AREA END :::::::-->
@@ -474,6 +520,7 @@
 
     <script>
         $(document).ready(function () {
+            // Image Slider
             $(".expert-image-carousel").owlCarousel({
                 loop: true,
                 margin: 30,
@@ -481,6 +528,28 @@
                 dots: true,
                 autoplay: true,
                 autoplayTimeout: 500, // 0.5 seconds
+                smartSpeed: 500,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+
+            // Video Slider
+            $(".expert-video-carousel").owlCarousel({
+                loop: true,
+                margin: 30,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 2000,
                 smartSpeed: 500,
                 responsive: {
                     0: {
