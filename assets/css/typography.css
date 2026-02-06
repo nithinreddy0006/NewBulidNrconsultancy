@@ -19,7 +19,8 @@
 -----------------------------*/
 
 /*Define main font on google font*/
-@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Rubik:300,300i,400,400i,500,500i,700,700i,900&display=swap');
+/*Define main font on google font*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
 
 .alignleft {
@@ -59,81 +60,96 @@ img {
     height: auto;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
+
 body,
 html {
     height: 100%;
 }
 
 
-h1,h2,h3,h4{
-    font-family: 'Poppins', sans-serif;
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Outfit', sans-serif;
     font-weight: 700;
 }
-.tuc{
+
+.tuc {
     text-transform: uppercase;
 }
-.tct{
+
+.tct {
     text-transform: capitalize;
 }
 
 
-.font_light{
+.font_light {
     font-weight: 300;
 }
-.font_bold{
+
+.font_bold {
     font-weight: 700
 }
-.font_regular{
+
+.font_regular {
     font-weight: 400;
 }
-.font_thin{
+
+.font_thin {
     font-weight: 100;
 }
-.b{
+
+.b {
     font-weight: 700;
 }
 
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Oswald', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Outfit', sans-serif;
     font-weight: 600;
 }
 
-h1{
+h1 {
     font-size: 90px;
     line-height: 110px;
     color: #ffffff;
     letter-spacing: -4px;
 }
 
-h2{
+h2 {
     font-size: 56px;
     letter-spacing: -2px;
     line-height: 74px;
     color: #070c24;
 }
 
-h3{
+h3 {
     font-size: 23px;
     color: #222222;
 }
 
 
-h6{
+h6 {
     font-size: 16px;
     color: #98adc2;
 }
 
-h5{
-   font-size: 18px;
+h5 {
+    font-size: 18px;
     line-height: 28px;
     color: #ff5621;
     font-weight: 400;
 }
 
-h4{
+h4 {
     font-size: 18px;
     color: #fff;
 }
@@ -142,12 +158,12 @@ body {
     font-size: 16px;
     line-height: 27px;
     color: #98adc2;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 500;
     overflow-x: hidden;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -1070,6 +1086,7 @@ input:-webkit-autofill:hover {
 .mb100 {
     margin-bottom: 100px;
 }
+
 .mb150 {
     margin-bottom: 150px;
 }
@@ -1464,7 +1481,7 @@ input:-webkit-autofill:hover {
 .section-padding {
     padding: 120px 0;
     overflow: hidden;
-    
+
 }
 
 .padding-top {
@@ -1502,17 +1519,19 @@ input:-webkit-autofill:hover {
 .padding-150-150 {
     padding: 150px 0;
 }
+
 .padding-200-200 {
     padding: 200px 0;
 }
 
 
 
-.padding-10-10{
+.padding-10-10 {
     padding: 10px 0;
 
 }
-.padding-20-20{
+
+.padding-20-20 {
     padding: 20px 0;
 }
 
@@ -2231,45 +2250,54 @@ input:-webkit-autofill:hover {
 .gray-bg {
     background: #f5f4f4;
 }
-.color_orange{
+
+.color_orange {
     color: #ff5621;
 }
-.color_help{
+
+.color_help {
     color: #ff658d;
 }
-.color_water{
+
+.color_water {
     color: #2095f3;
 }
-.color_users i{
+
+.color_users i {
     color: #ff5621;
 }
-.color_global i{
+
+.color_global i {
     color: #2095f3;
 }
-.color_cup i{
+
+.color_cup i {
     color: #ff658d;
 }
-.color_plan i{
+
+.color_plan i {
     color: #9465ff;
 }
 
-.case_text_bg1{
+.case_text_bg1 {
     background: #ffa665 !important;
 }
-.case_text_bg2{
+
+.case_text_bg2 {
     background: #9465ff !important;
 }
 
-.case_text_bg3{
+.case_text_bg3 {
     background: #ff658d !important;
 }
 
 
-.white_bg{
-    position: relative;z-index: 2;
+.white_bg {
+    position: relative;
+    z-index: 2;
 }
 
-.white_bg:before{
+.white_bg:before {
     position: absolute;
     content: "";
     height: 100%;
@@ -2281,11 +2309,12 @@ input:-webkit-autofill:hover {
     opacity: .95;
 }
 
-.w3bg{
-    position: relative;z-index: 2;
+.w3bg {
+    position: relative;
+    z-index: 2;
 }
 
-.w3bg:before{
+.w3bg:before {
     position: absolute;
     content: "";
     height: 100%;
@@ -2297,12 +2326,14 @@ input:-webkit-autofill:hover {
     opacity: .9;
 }
 
-.yellow-bg{
+.yellow-bg {
     background-color: #FFB400;
 }
-.white-bg{
+
+.white-bg {
     background-color: white;
 }
+
 .light-gray-bg {
     background-color: #f7f7f7;
 }
@@ -2339,7 +2370,7 @@ input:-webkit-autofill:hover {
     color: #ffffff;
 }
 
-.sky_color{
+.sky_color {
     color: #2095f3;
 }
 
@@ -2349,12 +2380,12 @@ input:-webkit-autofill:hover {
 }
 
 
-.white-bg{
+.white-bg {
     background: #fff;
 }
 
 
-.bgaf{
+.bgaf {
     background-attachment: fixed;
 }
 
@@ -2424,13 +2455,16 @@ input:-webkit-autofill:hover {
     border-bottom: 1px solid #dddddd;
 }
 
-.border_black_1px{
-    border: 1px solid #222; 
+.border_black_1px {
+    border: 1px solid #222;
 }
-.border_black_2px{
-    border: 2px solid #222; 
-}.border_black_3px{
-    border: 3px solid #222; 
+
+.border_black_2px {
+    border: 2px solid #222;
+}
+
+.border_black_3px {
+    border: 3px solid #222;
 }
 
 @media only screen and (max-width: 767px) {
@@ -2455,7 +2489,7 @@ input:-webkit-autofill:hover {
     border-radius: 50px;
 }
 
-.border-_5px_white{
+.border-_5px_white {
     border: .5px solid #fff;
 }
 
@@ -2567,7 +2601,7 @@ object {
 COMMON CSS
 =================*/
 
-.bg{
+.bg {
     background-position: center !important;
     -webkit-background-size: cover !important;
     background-size: cover !important;
@@ -2597,6 +2631,7 @@ SPACE CSS
 .space-60 {
     height: 60px;
 }
+
 .space-70 {
     height: 70px;
 }
