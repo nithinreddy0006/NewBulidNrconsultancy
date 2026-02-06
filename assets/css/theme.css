@@ -2384,16 +2384,16 @@ a.cbtn.cbnt2:hover {
     font-family: 'Arial Black', 'Impact', sans-serif !important;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: rgba(255, 255, 255, 0.05);
-    /* Almost transparent fill */
-    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.9);
-    /* Crisp glass outline */
-    text-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
-    /* Subtle glow */
+    color: transparent !important;
+    /* Fully transparent - no fill */
+    -webkit-text-fill-color: transparent !important;
+    /* Force transparent fill */
+    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 1);
+    /* Solid white outline only */
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    /* Glow effect */
     position: relative;
     display: inline-block;
-    backdrop-filter: blur(2px);
-    /* Slight blur behind text for glass effect */
 }
 
 .anime-stroke {
