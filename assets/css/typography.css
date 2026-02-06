@@ -64,7 +64,7 @@ a {
 }
 
 a:hover {
-    color: #08d665;
+    color: #0A66C2;
 }
 
 a:focus,
@@ -2340,7 +2340,7 @@ input:-webkit-autofill:hover {
     z-index: -1;
     top: 0;
     left: 0;
-    background: #00b268;
+    background: #0A66C2;
     opacity: .9;
 }
 
@@ -2665,3 +2665,4 @@ SPACE CSS
 .space-10 {
     height: 10px;
 }
+

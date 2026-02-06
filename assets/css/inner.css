@@ -49,7 +49,7 @@ INNER PAGES CSS----->
 .single-blog-section-description h2:hover, 
 .single-blog-section-description h2 a:hover{
 
-    color: #08d665;
+    color: #0A66C2;
 }
 
 .single-blog-section-description {
@@ -88,11 +88,11 @@ a.blog-author img {
     top: 50%;
     margin-top: -20px;
     border-radius: 50%;
-    border: 1px solid #08d665;
+    border: 1px solid #0A66C2;
 }
 
 .single-blog-section-author li a i {
-    color: #08d665;
+    color: #0A66C2;
     padding-right: 5px;
 }
 
@@ -119,7 +119,7 @@ span.single-blog-section-img-tag {
     margin: 15px 0;
 }
 .single-blog-section:hover span.single-blog-section-img-tag{
-	background: #08d665;
+	background: #0A66C2;
 }
 
 .blog-page-social li {
@@ -156,14 +156,14 @@ span.single-blog-section-img-tag {
     padding: 16px;
     line-height: 1.25;
     background-color: #fff;
-    border: 1px solid #08d665;
-    color: #08d665;
+    border: 1px solid #0A66C2;
+    color: #0A66C2;
     margin-right: 10px;
     border-radius: 5px;
 }
 
 .cpagination .page-link:hover{
-	background: #08d665;
+	background: #0A66C2;
 	color: #fff;
 	
 }
@@ -181,7 +181,7 @@ span.single-blog-section-img-tag {
 }
 
 .blog-box span {
-    color: #08d665;
+    color: #0A66C2;
 }
 
 .blog-author-image img {
@@ -257,7 +257,7 @@ span.single-blog-section-img-tag {
     padding: 10px 0;
 }
 .blog-categores li a:hover{
-    color: #08d665;
+    color: #0A66C2;
 }
 .blog-tag li a {
     padding: 7px 13px;
@@ -273,14 +273,14 @@ span.single-blog-section-img-tag {
 }
 
 .blog-tag li a:hover {
-    background: #08d665;
+    background: #0A66C2;
     color: #fff;
 }
 
 .blog-subscribe-form input {
     margin: 30px 0 20px 0;
     width: 80% !important;
-    border: 1px solid #b4f3d0;
+    border: 1px solid #E6F0FF;
     padding: 13px;
 }
 
@@ -296,7 +296,7 @@ span.single-blog-section-img-tag {
 
 .contact-form input:focus, 
 .contact-form textarea:focus {
-    border-color: #08d665;
+    border-color: #0A66C2;
 }
 
 .portfolio-bg-1{
@@ -344,7 +344,7 @@ span.single-blog-section-img-tag {
     font-family: 'Oswald', sans-serif;
 }
 .portfolio-filter li.active{
-    color: #08d665;
+    color: #0A66C2;
 }
 .portfolio-description {
     margin-bottom: 30px;
@@ -352,7 +352,7 @@ span.single-blog-section-img-tag {
 }
 .portfolio-description h6{
     font-size: 16px;
-    color: #08b665;
+    color: #0A66C2;
     text-transform: uppercase;
 }
 
@@ -523,7 +523,7 @@ height: 350px;
 }
 
 .single_comment h4{
-    color: #08d665;
+    color: #0A66C2;
     margin: 0;
     text-transform: uppercase;
 }
@@ -550,7 +550,7 @@ height: 350px;
 
 .comment_form input:focus, 
 .comment_form textarea:focus {
-    border-color: #22cd6f;
+    border-color: #0A66C2;
    -webkit-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
@@ -602,7 +602,7 @@ img.inner-shape3 {
 
 .single-quote {
     padding: 60px 50px;
-    background: #08d665;
+    background: #0A66C2;
 }
 
 .single-quote h6 {
@@ -633,7 +633,7 @@ img.inner-shape3 {
     top: 20%;
     right: 10%;
     font-size: 80px;
-    color: #07C55D;
+    color: #0A66C2;
 }
 
 .contact-page-area .service-text{
@@ -657,7 +657,7 @@ img.inner-shape3 {
     content: "";
     height: 100%;
     width:10%;
-    background: #08d665;
+    background: #0A66C2;
     z-index: 2;
     left: 0;
     top: 0;
@@ -803,3 +803,4 @@ img.memphis.memphis7 {
     transition: all .3s;
     box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
 }
+

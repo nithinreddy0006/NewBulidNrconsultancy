@@ -58,14 +58,14 @@
                         <div class="banner-social-wrap">
                             <div class="banner-social">
                                 <ul>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-facebook-f text-facebook"></i></a></li>
                                     <!-- X Icon Removed -->
                                     <li><a href="https://www.youtube.com/@nithin_anugu"><i
-                                                class="fab fa-youtube"></i></a></li>
+                                                class="fab fa-youtube text-youtube"></i></a></li>
                                     <li><a href="https://linkedin.com/in/nrconsultancyforyou06"><i
-                                                class="fab fa-linkedin-in"></i></a></li>
+                                                class="fab fa-linkedin-in text-linkedin"></i></a></li>
                                     <li><a href="https://instagram.com/nrconsultancyforyou06"><i
-                                                class="fab fa-instagram"></i></a></li>
+                                                class="fab fa-instagram text-instagram"></i></a></li>
                                 </ul>
                             </div>
                             <div class="banner-contact">
@@ -87,8 +87,7 @@
                 <div class="row">
                     <div class="col-6 col-lg-3 align-self-center">
                         <a href="index.html" class="logo">
-                            <img src="assets/img/logo/logo-main.png" alt="NR Consultancy"
-                                style="height: 90px; width: auto;">
+                            <img src="assets/img/logo/logo.svg" alt="NR Consultancy" style="height: 60px; width: auto;">
                         </a>
                         <!-- Mobile Contact Button -->
                         <a href="contact.html" class="mobile-contact-btn d-block d-lg-none">
@@ -132,8 +131,8 @@
                         <i class="fal fa-times"></i>
                     </div>
                     <div class="logo">
-                        <a href="index.html"><img src="assets/img/logo/logo-main.png" alt="NR Consultancy"
-                                style="height: 90px; width: auto;"></a>
+                        <a href="index.html"><img src="assets/img/logo/logo.svg" alt="NR Consultancy"
+                                style="height: 60px; width: auto;"></a>
                     </div>
                     <div class="side-content">
                         <p>NR Consultancy is your trusted partner for ESIC, EPFO, and GST compliance. We operate 100%
@@ -142,10 +141,10 @@
                     </div>
                     <div class="side-social">
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-f text-facebook"></i></a></li>
                             <!-- Twitter Removed -->
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin-in text-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram text-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -206,7 +205,15 @@
         <!--:::::WELCOME AREA END :::::::-->
 
         <!--:::::ABOUT AREA START :::::::-->
-        <div class="about-area about-area1 section-padding" id="about">
+        <div class="about-area about-area1 section-padding" id="about"
+            style="position: relative; overflow: hidden; background: none !important; z-index: 1;">
+            <video autoplay muted loop playsinline
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+                <source src="assets/video/home_new.mp4" type="video/mp4">
+            </video>
+            <div
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.9); z-index: -1;">
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 align-self-center">
@@ -238,7 +245,15 @@
         <!--:::::ABOUT AREA END :::::::-->
 
         <!--:::::SKILL AREA START :::::::-->
-        <div class="skill-area section-padding" id="portfolio">
+        <div class="skill-area section-padding" id="portfolio"
+            style="position: relative; overflow: hidden; background: none !important; z-index: 1;">
+            <video autoplay muted loop playsinline
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+                <source src="assets/video/industrial_bg.mp4" type="video/mp4">
+            </video>
+            <div
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 65, 130, 0.9); z-index: -1;">
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 align-self-center">
@@ -416,7 +431,15 @@
         <!--:::::SERVICE AREA END :::::::-->
 
         <!--:::::PROJECT AREA START :::::::-->
-        <div class="project-area section-padding">
+        <div class="project-area section-padding"
+            style="position: relative; overflow: hidden; background: none !important; z-index: 1;">
+            <video autoplay muted loop playsinline
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+                <source src="assets/video/industrial_bg.mp4" type="video/mp4">
+            </video>
+            <div
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.95); z-index: -1;">
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 align-self-center">
@@ -438,51 +461,61 @@
                     <ul id="da-thumbs" class="da-thumbs portfolio-carousel owl-carousel">
                         <li>
                             <a href="portfolio-manufacturing.html">
-                                <!-- Image Removed -->
-                                <div
-                                    style="background: #f8f9fa; height: 300px; display: flex; align-items: center; justify-content: center;">
-                                    <span>Factories & Industries<br><small style="font-size:10px;">Industrial
-                                            Compliance</small></span>
+                                <img src="assets/img/project/manufacturing.jpg" alt="Factories & Industries"
+                                    class="img-fluid" style="height: 300px; object-fit: cover; width: 100%;">
+                                <div class="project-overlay">
+                                    <div class="project-text">
+                                        <span>Factories & Industries<br><small style="font-size:10px;">Industrial
+                                                Compliance</small></span>
+                                    </div>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="portfolio-government.html">
-                                <!-- Image Removed -->
-                                <div
-                                    style="background: #f8f9fa; height: 300px; display: flex; align-items: center; justify-content: center;">
-                                    <span>Government Contracts<br><small style="font-size:10px;">Public Sector
-                                            Project</small></span>
+                                <img src="assets/img/project/government.jpg" alt="Government Contracts"
+                                    class="img-fluid" style="height: 300px; object-fit: cover; width: 100%;">
+                                <div class="project-overlay">
+                                    <div class="project-text">
+                                        <span>Government Contracts<br><small style="font-size:10px;">Public Sector
+                                                Project</small></span>
+                                    </div>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="portfolio-corporate.html">
-                                <!-- Image Removed -->
-                                <div
-                                    style="background: #f8f9fa; height: 300px; display: flex; align-items: center; justify-content: center;">
-                                    <span>Private Contracts<br><small style="font-size:10px;">Corporate
-                                            Agreements</small></span>
+                                <img src="assets/img/project/corporate.jpg" alt="Private Contracts" class="img-fluid"
+                                    style="height: 300px; object-fit: cover; width: 100%;">
+                                <div class="project-overlay">
+                                    <div class="project-text">
+                                        <span>Private Contracts<br><small style="font-size:10px;">Corporate
+                                                Agreements</small></span>
+                                    </div>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="portfolio-hospital.html">
-                                <!-- Image Removed -->
-                                <div
-                                    style="background: #f8f9fa; height: 300px; display: flex; align-items: center; justify-content: center;">
-                                    <span>Healthcare Sector<br><small style="font-size:10px;">Hospitals &
-                                            Clinics</small></span>
+                                <img src="assets/img/project/hospital.jpg" alt="Healthcare Sector" class="img-fluid"
+                                    style="height: 300px; object-fit: cover; width: 100%;">
+                                <div class="project-overlay">
+                                    <div class="project-text">
+                                        <span>Healthcare Sector<br><small style="font-size:10px;">Hospitals &
+                                                Clinics</small></span>
+                                    </div>
                                 </div>
                             </a>
                         </li>
                         <li>
                             <a href="portfolio-school.html">
-                                <!-- Image Removed -->
-                                <div
-                                    style="background: #f8f9fa; height: 300px; display: flex; align-items: center; justify-content: center;">
-                                    <span>Education Sector<br><small style="font-size:10px;">Schools &
-                                            Colleges</small></span>
+                                <img src="assets/img/project/school.jpg" alt="Education Sector" class="img-fluid"
+                                    style="height: 300px; object-fit: cover; width: 100%;">
+                                <div class="project-overlay">
+                                    <div class="project-text">
+                                        <span>Education Sector<br><small style="font-size:10px;">Schools &
+                                                Colleges</small></span>
+                                    </div>
                                 </div>
                             </a>
                         </li>
@@ -493,7 +526,15 @@
         <!--:::::PROJECT AREA END :::::::-->
 
         <!--:::::TESTIMONIALS AREA START :::::::-->
-        <div class="testimonials-area testimonials-area1 section-padding">
+        <div class="testimonials-area testimonials-area1 section-padding"
+            style="position: relative; overflow: hidden; background: none !important; z-index: 1;">
+            <video autoplay muted loop playsinline
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+                <source src="assets/video/client_new.mp4" type="video/mp4">
+            </video>
+            <div
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); z-index: -1;">
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 align-self-center">
@@ -515,17 +556,19 @@
                     <div class="col-lg-10 m-auto">
                         <div class="testimonials owl-carousel">
                             <div class="testimonial">
-                                <!-- Image Removed -->
+                                <div class="testimonial-img">
+                                    <img src="assets/img/author/author1.png" alt="Rajesh Kumar">
+                                </div>
                                 <div class="testimonial-text animated fadeInDown">
                                     <i class="fas fa-quote-left"
-                                        style="font-size: 30px; color: #2ecc71; margin-bottom: 20px;"></i>
+                                        style="font-size: 30px; color: #0A66C2; margin-bottom: 20px;"></i>
                                     <div class="stars" style="color: #ffc107; margin-bottom: 10px;">
                                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                             class="fas fa-star"></i><i class="fas fa-star"></i><i
                                             class="fas fa-star"></i>
                                     </div>
                                     <h5
-                                        style="color: #2ecc71; text-transform: uppercase; font-size: 12px; letter-spacing: 1px; font-weight: bold;">
+                                        style="color: #0A66C2; text-transform: uppercase; font-size: 12px; letter-spacing: 1px; font-weight: bold;">
                                         Top Rated Service</h5>
                                     <h4>"NR Consultancy simplified our ESIC and EPFO compliance. Their remote service is
                                         efficient, transparent, and cost-effective."</h4>
@@ -533,17 +576,19 @@
                                 </div>
                             </div>
                             <div class="testimonial">
-                                <!-- Image Removed -->
+                                <div class="testimonial-img">
+                                    <img src="assets/img/author/author2.png" alt="Priya Sharma">
+                                </div>
                                 <div class="testimonial-text">
                                     <i class="fas fa-quote-left"
-                                        style="font-size: 30px; color: #2ecc71; margin-bottom: 20px;"></i>
+                                        style="font-size: 30px; color: #0A66C2; margin-bottom: 20px;"></i>
                                     <div class="stars" style="color: #ffc107; margin-bottom: 10px;">
                                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                             class="fas fa-star"></i><i class="fas fa-star"></i><i
                                             class="fas fa-star"></i>
                                     </div>
                                     <h5
-                                        style="color: #2ecc71; text-transform: uppercase; font-size: 12px; letter-spacing: 1px; font-weight: bold;">
+                                        style="color: #0A66C2; text-transform: uppercase; font-size: 12px; letter-spacing: 1px; font-weight: bold;">
                                         Trusted Partner</h5>
                                     <h4>"Excellent support for GST filings. The team is knowledgeable and always
                                         available for queries. Highly recommended!"</h4>
@@ -551,17 +596,19 @@
                                 </div>
                             </div>
                             <div class="testimonial">
-                                <!-- Image Removed -->
+                                <div class="testimonial-img">
+                                    <img src="assets/img/author/author3.png" alt="Amit Patel">
+                                </div>
                                 <div class="testimonial-text">
                                     <i class="fas fa-quote-left"
-                                        style="font-size: 30px; color: #2ecc71; margin-bottom: 20px;"></i>
+                                        style="font-size: 30px; color: #0A66C2; margin-bottom: 20px;"></i>
                                     <div class="stars" style="color: #ffc107; margin-bottom: 10px;">
                                         <i class="fas fa-star"></i><i class="fas fa-star"></i><i
                                             class="fas fa-star"></i><i class="fas fa-star"></i><i
                                             class="fas fa-star"></i>
                                     </div>
                                     <h5
-                                        style="color: #2ecc71; text-transform: uppercase; font-size: 12px; letter-spacing: 1px; font-weight: bold;">
+                                        style="color: #0A66C2; text-transform: uppercase; font-size: 12px; letter-spacing: 1px; font-weight: bold;">
                                         Verified Client</h5>
                                     <h4>"We have been using their services for a year now. The transition to their
                                         remote compliance model was seamless and hassle-free."</h4>
@@ -783,6 +830,32 @@
         </div>
     </div>
     <!--:::::FAQ AREA END :::::::-->
+
+    <!--:::::NEWSLETTER AREA START :::::::-->
+    <div class="cta-area cta-area1 section-padding" id="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto text-center">
+                    <div class="heading cta-heading white">
+                        <small>Stay Updated</small>
+                        <h2>Subscribe to our <span>Newsletter</span></h2>
+                    </div>
+                </div>
+            </div>
+            <div class="space-40"></div>
+            <div class="row">
+                <div class="col-lg-10 m-auto">
+                    <div class="cta-form">
+                        <form action="#">
+                            <input type="email" placeholder="Enter your email address">
+                            <a href="#" class="cbtn subscribe-btn">Subscribe <i class="fal fa-paper-plane"></i></a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--:::::NEWSLETTER AREA END :::::::-->
 
 
 

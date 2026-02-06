@@ -8,12 +8,12 @@ a.cbtn {
 }
 
 a.cbtn.cbnt1 {
-    background: #08d665;
+    background: #0A66C2;
     padding-right: 70px;
     position: relative;
     z-index: 2;
     border: 1px solid transparent;
-    color:#fff;
+    color: #fff;
 }
 
 a.cbtn.cbnt1 i {
@@ -26,23 +26,23 @@ a.cbtn.cbnt1 i {
     line-height: 30px;
     font-size: 20px;
     background: #fff;
-    color: #08d665;
+    color: #0A66C2;
     border-radius: 4px;
     margin-top: -15px;
 }
 
 
 
-a.cbtn.cbnt1:hover{
-    border-color: #22cd6f;
+a.cbtn.cbnt1:hover {
+    border-color: #004182;
     background: transparent;
-    color: #22cd6f;
+    color: #004182;
     transition: all .3s;
 }
 
 
 a.cbtn.pricing-btn {
-    background: #08d665;
+    background: #0A66C2;
     padding-right: 70px;
     position: relative;
     z-index: 2;
@@ -63,4 +63,3 @@ a.cbtn.pricing-btn i {
     border-radius: 4px;
     margin-top: -15px;
 }
-

@@ -264,7 +264,7 @@
     $('#circle1').circleProgress({
       value: 0.6,
       fill: {
-        color: '#08d665'
+        color: '#0A66C2'
       },
       emptyFill: '#ffffff',
     }).on('circle-animation-progress', function (event, progress) {
@@ -275,7 +275,7 @@
     $('#circle2').circleProgress({
       value: 0.7,
       fill: {
-        color: '#08d665'
+        color: '#0A66C2'
       },
       emptyFill: '#ffffff',
     }).on('circle-animation-progress', function (event, progress) {
@@ -286,7 +286,7 @@
     $('#circle3').circleProgress({
       value: 0.3,
       fill: {
-        color: '#08d665'
+        color: '#0A66C2'
       },
       emptyFill: '#ffffff',
     }).on('circle-animation-progress', function (event, progress) {
@@ -297,7 +297,7 @@
     $('#circle4').circleProgress({
       value: 0.9,
       fill: {
-        color: '#08d665'
+        color: '#0A66C2'
       },
       emptyFill: '#ffffff',
     }).on('circle-animation-progress', function (event, progress) {
