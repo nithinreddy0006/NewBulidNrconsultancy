@@ -334,8 +334,8 @@ Description:
 
 
     .logo img {
-        height: 40px !important;
-        /* Adjust for mobile */
+        height: 50px !important;
+        /* Increased size for mobile */
     }
 
     .blog-area .owl-nav {
