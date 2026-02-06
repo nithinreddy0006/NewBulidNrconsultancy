@@ -325,42 +325,28 @@
                 </div>
                 <div class="space-60"></div>
 
-                <!-- Images Grid -->
+                <!-- Images Slider -->
                 <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="media-grid-item">
-                            <img src="assets/img/project/corporate.jpg" alt="Corporate Services">
-                            <div class="video-label">Corporate Clients</div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="media-grid-item">
-                            <img src="assets/img/project/government.jpg" alt="Government Contracts">
-                            <div class="video-label">Government Contracts</div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="media-grid-item">
-                            <img src="assets/img/project/hospital.jpg" alt="Healthcare Compliance">
-                            <div class="video-label">Healthcare Compliance</div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="media-grid-item">
-                            <img src="assets/img/project/manufacturing.jpg" alt="Industrial Safety">
-                            <div class="video-label">Industrial Sectors</div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="media-grid-item">
-                            <img src="assets/img/project/school.jpg" alt="Education Sector">
-                            <div class="video-label">Education Sector</div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="media-grid-item">
-                            <img src="assets/img/project/warehouse.jpg" alt="Warehouse Management">
-                            <div class="video-label">Warehouse Management</div>
+                    <div class="col-12">
+                        <div class="expert-image-carousel owl-carousel">
+                            <div class="media-grid-item">
+                                <img src="assets/img/africa.jpg" alt="Global Reach">
+                            </div>
+                            <div class="media-grid-item">
+                                <img src="assets/img/calls.avif" alt="Client Calls">
+                            </div>
+                            <div class="media-grid-item">
+                                <img src="assets/img/callsd.jpg" alt="Support Team">
+                            </div>
+                            <div class="media-grid-item">
+                                <img src="assets/img/coffe.jpg" alt="Consultation">
+                            </div>
+                            <div class="media-grid-item">
+                                <img src="assets/img/large.jpg" alt="Corporate Strategy">
+                            </div>
+                            <div class="media-grid-item">
+                                <img src="assets/img/meeting.avif" alt="Expert Meeting">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -513,6 +499,31 @@
     <script src="assets/js/plugins/jquery.hoverdir.js"></script>
     <script src="assets/js/plugins/isotop.v3.0.4.min.js"></script>
     <script src="assets/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".expert-image-carousel").owlCarousel({
+                loop: true,
+                margin: 30,
+                nav: false,
+                dots: true,
+                autoplay: true,
+                autoplayTimeout: 500, // 0.5 seconds
+                smartSpeed: 500,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
 
     <!--::::: Chat Bot Widget :::::::-->
     <div class="chatbot-container" id="chatWidget">
