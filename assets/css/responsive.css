@@ -179,52 +179,28 @@ Description:
         letter-spacing: 1px;
     }
 
+    .header-banner-area {
+        display: none !important;
+        /* Hide social/top bar clutter */
+    }
+
     .header-area.header-main {
         top: 0 !important;
-        position: relative !important;
+        position: fixed !important;
+        /* Keep logo bar sticky if needed, or relative */
         background: #0b0b0b;
     }
 
-    .logo span:first-child {
-        font-size: 24px !important;
-    }
-
-    .logo span:last-child span:first-child {
-        font-size: 12px !important;
-    }
-
-    .header-banner-area {
-        display: block !important;
-        height: auto !important;
-        padding: 5px 0;
-        background: #0b0b0b;
-        /* Match site black/dark theme */
-    }
-
-    .header-banner-area .row>div:first-child {
-        display: none;
-        /* Hide the text column */
-    }
-
-    .banner-social-wrap {
-        text-align: center;
-        margin-top: 0;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 5px;
-        border-top: none;
-    }
-
-    .banner-social ul {
-        margin-bottom: 0;
-    }
-
-    .banner-social ul li {
-        margin: 0 5px;
+    .mobile-contact-btn {
+        display: inline-block;
+        color: #2ecc71;
+        font-size: 24px;
+        position: absolute;
+        right: 70px;
+        /* Position to the left of hamburger menu */
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1001;
     }
 
     div#facts .row>div {
