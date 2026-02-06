@@ -1,4 +1,3 @@
-
 /*
 Theme Name:  
 Theme url:
@@ -13,25 +12,23 @@ Description:
 ================+/+/+/+/+/+/+/+/+/=================
 */
 @media only screen and (min-width: 1400px) {
-    .single-welcome-area{
+    .single-welcome-area {
         height: 1000px;
     }
-    .wlc-title h1{
+
+    .wlc-title h1 {
         font-size: 80px;
         line-height: 90px
-
     }
-    
+
 }
+
 /*
 ================+/+/+/+/+/+/+/+/+/=================
                     heigh
 ================+/+/+/+/+/+/+/+/+/=================
 */
-@media only screen and (max-width: 1400px) {
-    
-    
-}
+@media only screen and (max-width: 1400px) {}
 
 /*
 ================+/+/+/+/+/+/+/+/+/=================
@@ -39,64 +36,77 @@ Description:
 ================+/+/+/+/+/+/+/+/+/=================
 */
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-    
-}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
 /*
 ================+/+/+/+/+/+/+/+/+/=================
                      tab
 ================+/+/+/+/+/+/+/+/+/=================
 */
-@media only screen and (max-width: 991px){
-    .skill-area.primery-skill .row:last-child > div {
+@media only screen and (max-width: 991px) {
+    .skill-area.primery-skill .row:last-child>div {
         margin-bottom: 30px;
     }
-    .skill-area.primery-skill .row:last-child > div:last-child{
+
+    .skill-area.primery-skill .row:last-child>div:last-child {
         margin-bottom: 0
     }
-    .service-area .row > div, 
-    .pricing-area .row > div{
+
+    .service-area .row>div,
+    .pricing-area .row>div {
         margin-bottom: 40px;
     }
-    .about-area .heading{
+
+    .about-area .heading {
         margin-top: 40px
-     }
-    .service-area .row > div:last-child, 
-    .pricing-area .row > div:last-child{
+    }
+
+    .service-area .row>div:last-child,
+    .pricing-area .row>div:last-child {
         margin-bottom: 0;
     }
-    .header-banner-area{
+
+    .header-banner-area {
         display: none;
         height: 0
     }
-    .header-area.header-main{
+
+    .header-area.header-main {
         top: 0
     }
+
     .welcome-area.inner {
         padding: 100px 0 50px 0;
     }
+
     .single-blog-section-description h2 {
         font-size: 18px;
         line-height: 30px;
     }
-    .single-blog-section-author ul{
-        margin:20px 0;
+
+    .single-blog-section-author ul {
+        margin: 20px 0;
     }
-    .single-blog-section-author li{
+
+    .single-blog-section-author li {
         padding: 5px 0;
     }
-    .related_tags .row > div:last-child {
+
+    .related_tags .row>div:last-child {
         margin-top: 15px;
     }
-    .post_prev_next .row > div {
+
+    .post_prev_next .row>div {
         text-align: left !important;
         margin: 10px 0;
     }
+
     .single_comment {
         position: relative;
         z-index: 2;
         padding: 0;
     }
+
     .comment_img {
         width: 80px;
         height: 80px;
@@ -109,72 +119,96 @@ Description:
         overflow: hidden;
         margin-bottom: 30px;
     }
+
     .single_comment h4 {
         font-size: 16px;
     }
-    .comment_form{
+
+    .comment_form {
         margin-bottom: 50px;
     }
+
     .portfolio-filter li {
         display: block;
         text-align: center;
     }
-    .contact-page-area .row > div, 
+
+    .contact-page-area .row>div,
     .map {
         margin-bottom: 40px;
     }
-    .contact-page-area .row > div:last-child{
+
+    .contact-page-area .row>div:last-child {
         margin-bottom: 0;
     }
-    .cpagination{
+
+    .cpagination {
         margin-bottom: 50px;
     }
-    .info-content{
+
+    .info-content {
         margin-top: 30px;
     }
-    .about-area .primery-heading{
-        margin-top: 40px;    
+
+    .about-area .primery-heading {
+        margin-top: 40px;
     }
-    .wlc-author-1{
+
+    .wlc-author-1 {
         display: none;
     }
-    .skill-box{
+
+    .skill-box {
         margin-bottom: 30px;
-     }
+    }
 
 }
 
 /*tablet layout:768px*/
-@media only screen and(min-width:768px) and (max-width:991px){
-	
-    
+@media only screen and(min-width:768px) and (max-width:991px) {}
 
-
-	
-}    
 /*
 ================+/+/+/+/+/+/+/+/+/=================
                     Mobile
 ================+/+/+/+/+/+/+/+/+/=================
 */
 @media only screen and (max-width: 767px) {
-    .wlc-title h1{
-        font-size     : 32px;
-        line-height   : 36px;
+    .wlc-title h1 {
+        font-size: 32px;
+        line-height: 36px;
         letter-spacing: 1px;
     }
+
+    .header-area.header-main {
+        top: 0 !important;
+        position: relative !important;
+        background: #0b0b0b;
+    }
+
+    .logo span:first-child {
+        font-size: 24px !important;
+    }
+
+    .logo span:last-child span:first-child {
+        font-size: 12px !important;
+    }
+
     .header-banner-area {
         display: block !important;
         height: auto !important;
         padding: 5px 0;
-        background: #0b0b0b; /* Match site black/dark theme */
+        background: #0b0b0b;
+        /* Match site black/dark theme */
     }
-    .header-banner-area .row > div:first-child {
-        display: none; /* Hide the text column */
+
+    .header-banner-area .row>div:first-child {
+        display: none;
+        /* Hide the text column */
     }
+
     .banner-social-wrap {
-        text-align : center;
-        margin-top : 0;
+        text-align: center;
+        margin-top: 0;
         padding-top: 5px;
         padding-bottom: 5px;
         display: flex;
@@ -184,43 +218,52 @@ Description:
         gap: 5px;
         border-top: none;
     }
+
     .banner-social ul {
         margin-bottom: 0;
     }
+
     .banner-social ul li {
         margin: 0 5px;
     }
-    div#facts .row > div {
+
+    div#facts .row>div {
         margin: 20px;
     }
+
     .author-1 {
         display: none;
     }
+
     .single-welcome-area {
         text-align: center;
         height: 450px;
         padding: 120px 0;
     }
+
     .blog-page-social {
         text-align: justify;
     }
 
     .single-welcome-area.home_1 {
-        
+
         margin-top: 120px;
     }
-    .header-area{
+
+    .header-area {
         padding: 10px 0;
     }
-    .single-blog-img{
+
+    .single-blog-img {
         height: 220px !important;
     }
-    .heading h2, 
+
+    .heading h2,
     .primery-heading h2 {
         font-size: 32px;
         line-height: 45px;
     }
-    
+
     .owl-nav {
         position: absolute !important;
         top: auto !important;
@@ -229,17 +272,21 @@ Description:
         width: 100% !important;
         text-align: center !important;
     }
-    .da-thumbs li{
+
+    .da-thumbs li {
         float: unset;
     }
+
     .testimonial-text h4 {
         font-size: 16px;
         line-height: 25px;
     }
+
     .testimonial-text h4 {
         font-size: 16px;
         line-height: 25px;
     }
+
     .testimonial-img {
         height: 100px;
         width: 100px;
@@ -259,58 +306,69 @@ Description:
         padding-left: 0;
         text-align: center;
     }
-    .project-area.section-padding, 
-    .pricing-area.section-padding{
+
+    .project-area.section-padding,
+    .pricing-area.section-padding {
         padding-bottom: 0
     }
+
     .cta-form input {
         width: 100% !important;
         margin-bottom: 30px;
     }
+
     a.subscribe-btn {
         width: 78%;
         float: none;
     }
+
     .heading.cta-heading h2 {
         font-size: 34px;
         line-height: 45px;
     }
-    
 
-    .blog-area .owl-nav{
+
+    .blog-area .owl-nav {
         bottom: -5% !important
     }
-    .blog-readmore-social div > div:last-child {
+
+    .blog-readmore-social div>div:last-child {
         text-align: left;
         margin-top: 15px;
     }
+
     .blog-banner h3 {
         font-size: 20px;
         color: #fff;
         line-height: 34px;
     }
-    .blog-banner{
+
+    .blog-banner {
         padding: 20px
     }
+
     .cta-form a.subscribe-btn {
         width: 75%;
         float: left;
     }
+
     .single-quote {
         padding: 20px;
     }
 
-    .skill-area .skill{
+    .skill-area .skill {
         margin-bottom: 30px;
     }
-     .skill-area .skill:last-child{
-        margin-bottom: 0;
-     }
-     .welcome-carousel .owl-dots{
-        bottom: 40%;
-     }
 
-     
+    .skill-area .skill:last-child {
+        margin-bottom: 0;
+    }
+
+    .welcome-carousel .owl-dots {
+        bottom: 40%;
+    }
+
+
 }
 
 /*
@@ -320,12 +378,13 @@ Description:
 */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.container{
-		width: 480px;
-	}
-    
+    .container {
+        width: 480px;
+    }
+
 
 }
+
 /*=========================================================================
                                 The end
 ==========================================================================*/
