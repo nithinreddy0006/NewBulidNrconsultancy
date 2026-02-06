@@ -180,8 +180,37 @@ Description:
     }
 
     .header-banner-area {
-        display: none !important;
-        /* Hide social/top bar clutter */
+        display: block !important;
+        /* Show banner again for social icons */
+        height: auto !important;
+        padding: 5px 0;
+        background: #0b0b0b;
+    }
+
+    .header-banner-area .row>div:first-child {
+        display: none;
+        /* Hide text column */
+    }
+
+    .banner-social-wrap {
+        text-align: center;
+        margin-top: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        border-top: none;
+    }
+
+    .banner-social ul {
+        margin-bottom: 0;
+    }
+
+    .banner-social ul li {
+        margin: 0 5px;
     }
 
     .header-area.header-main {
