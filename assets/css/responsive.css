@@ -205,6 +205,16 @@ Description:
         border-top: none;
     }
 
+    /* Keep social visible */
+    .banner-social {
+        display: block !important;
+    }
+
+    /* Hide Banner Contact Button on Mobile */
+    .banner-contact {
+        display: none !important;
+    }
+
     .banner-social ul {
         margin-bottom: 0;
     }
@@ -220,16 +230,9 @@ Description:
         background: #0b0b0b;
     }
 
+    /* Hide Mail Icon on Mobile */
     .mobile-contact-btn {
-        display: inline-block;
-        color: #2ecc71;
-        font-size: 24px;
-        position: absolute;
-        right: 70px;
-        /* Position to the left of hamburger menu */
-        top: 50%;
-        transform: translateY(-50%);
-        z-index: 1001;
+        display: none !important;
     }
 
     div#facts .row>div {
