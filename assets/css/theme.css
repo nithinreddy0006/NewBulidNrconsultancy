@@ -2431,3 +2431,30 @@ a.cbtn.cbnt2:hover {
         transform: none;
     }
 }
+
+/* Fix white border between video carousel slides */
+.welcome-carousel .owl-item {
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.welcome-carousel .owl-stage {
+    display: flex;
+    gap: 0 !important;
+}
+
+.welcome-carousel .owl-stage-outer {
+    overflow: hidden;
+    border: none !important;
+}
+
+.welcome-carousel .single-welcome-area {
+    border: none !important;
+    margin: 0 !important;
+}
+
+.welcome-carousel video {
+    display: block;
+    border: none !important;
+}
