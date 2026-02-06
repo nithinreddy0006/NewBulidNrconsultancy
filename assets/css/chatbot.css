@@ -1,0 +1,139 @@
+/* Chat Bot Widget Styles */
+.chatbot-container {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    font-family: 'Outfit', sans-serif;
+}
+
+.chatbot-trigger {
+    width: 60px;
+    height: 60px;
+    background: #2ecc71;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.chatbot-trigger:hover {
+    transform: scale(1.1);
+}
+
+.chatbot-trigger img {
+    width: 40px;
+    height: 40px;
+}
+
+.chatbot-trigger::after {
+    content: 'Chat';
+    position: absolute;
+    bottom: -25px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    background: #fff;
+    padding: 2px 8px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chatbot-options {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 250px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    display: none;
+    /* Hidden by default */
+    flex-direction: column;
+    gap: 10px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+}
+
+.chatbot-container.active .chatbot-options {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.chatbot-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.chatbot-header h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.chatbot-header span {
+    font-size: 12px;
+    color: #2ecc71;
+}
+
+.chatbot-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    background: #f8f9fa;
+    color: #333;
+    text-decoration: none !important;
+    transition: background 0.2s;
+    font-weight: 500;
+}
+
+.chatbot-option:hover {
+    background: #e9ecef;
+}
+
+.chatbot-option i {
+    font-size: 18px;
+}
+
+.chatbot-option .fa-phone {
+    color: #2ecc71;
+}
+
+.chatbot-option .fa-whatsapp {
+    color: #25D366;
+}
+
+.chatbot-option .fa-envelope {
+    color: #ff9f43;
+}
+
+/* Mobile Optimizations */
+@media only screen and (max-width: 767px) {
+    .chatbot-container {
+        bottom: 20px;
+        right: 20px;
+    }
+
+    .chatbot-trigger {
+        width: 50px;
+        height: 50px;
+    }
+
+    .chatbot-trigger img {
+        width: 35px;
+        height: 35px;
+    }
+}
