@@ -36,7 +36,8 @@
       dots: true,
       animateIn: 'fadeIn',
       animateOut: 'fadeOut',
-      smartplay: 1000,
+      smartSpeed: 800,
+      autoplayTimeout: 2000,
       autoplay: true,
       navText: ["<i class=\'fal fa-arrow-left\'></i>", "<i class=\'fal fa-arrow-right\'></i>"],
       responsive: {
@@ -97,6 +98,8 @@
       animateIn: 'fadeInRight',
       animateOut: 'fadeInRight',
       autoplay: true,
+      autoplayTimeout: 4000,
+      smartSpeed: 800,
       items: 1,
       navText: ["<i class=\'fal fa-arrow-left\'></i>", "<i class=\'fal fa-arrow-right\'></i>"],
 
@@ -108,6 +111,8 @@
       nav: true,
       dots: false,
       autoplay: true,
+      autoplayTimeout: 3000,
+      smartSpeed: 800,
       margin: 30,
 
       navText: ["<i class=\'fal fa-arrow-left\'></i>", "<i class=\'fal fa-arrow-right\'></i>"],
@@ -131,6 +136,8 @@
       nav: false,
       dots: false,
       autoplay: true,
+      autoplayTimeout: 2000,
+      smartSpeed: 600,
       responsive: {
         0: {
           items: 1
