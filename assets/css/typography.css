@@ -22,6 +22,24 @@
 /*Define main font on google font*/
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
+/* Social Icon Brand Colors */
+.fab.fa-facebook-f {
+    color: #3b5998 !important;
+}
+
+.fab.fa-youtube {
+    color: #ff0000 !important;
+}
+
+.fab.fa-linkedin-in {
+    color: #0077b5 !important;
+}
+
+.fab.fa-instagram {
+    color: #e1306c !important;
+}
+
+
 
 .alignleft {
     float: left;
