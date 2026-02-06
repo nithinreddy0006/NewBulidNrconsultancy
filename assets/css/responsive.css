@@ -322,6 +322,24 @@ Description:
         margin-bottom: 30px;
     }
 
+    /* Hide Contact Us button in header on mobile */
+    .header-btn {
+        display: none !important;
+    }
+
+    /* Hide Learn More button in hero on mobile */
+    .wlc-title .cbtn {
+        display: none !important;
+    }
+
+    .mobile-contact-btn {
+        display: none !important;
+    }
+
+    .stellarnav .current {
+        font-weight: bold;
+    }
+
     a.subscribe-btn {
         width: 78%;
         float: none;
@@ -334,8 +352,14 @@ Description:
 
 
     .logo img {
-        height: 50px !important;
-        /* Increased size for mobile */
+        height: 65px !important;
+        max-height: none !important;
+    }
+
+    /* Sidebar Logo Fix for Mobile */
+    .side-widgest .logo img {
+        height: 70px !important;
+        width: auto !important;
     }
 
     .blog-area .owl-nav {
