@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100">
+  <rect width="400" height="100" fill="none"/>
+  <rect x="25" y="25" width="40" height="40" fill="#ff9f43"/>
+  <polyline points="25,25 45,45 65,25" fill="none" stroke="#fff" stroke-width="2"/>
+  <text x="80" y="65" font-family="Arial, sans-serif" font-weight="bold" font-size="36" fill="#333">GLOBAL</text>
+  <text x="240" y="65" font-family="Arial, sans-serif" font-weight="normal" font-size="36" fill="#777">Logistics</text>
+</svg>

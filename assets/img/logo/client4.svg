@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 100">
+  <rect width="350" height="100" fill="none"/>
+  <path fill="#0c2461" d="M10,35 L45,20 L80,35 L45,50 Z M45,55 L45,75 M15,38 v25"/>
+  <text x="90" y="65" font-family="serif" font-weight="bold" font-size="38" fill="#0c2461">EduPrime</text>
+</svg>
