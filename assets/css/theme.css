@@ -2085,3 +2085,55 @@ p.single-soicial-text {
     display: inline-block;
     width: auto;
 }
+/*
+==========================
+    FAQ AREA CSS
+==========================
+*/
+.faq-area {
+    background: #f9f9f9;
+}
+.faq-area .card {
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+.faq-area .card-header {
+    background: #fff;
+    border-bottom: none;
+    padding: 0;
+}
+.faq-area .card-header h5 button {
+    color: #2e3d44;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    font-size: 18px;
+}
+.faq-area .card-header h5 button:hover,
+.faq-area .card-header h5 button[aria-expanded='true'] {
+    color: #2ecc71;
+}
+.faq-area .card-header h5 button:after {
+    content: '\f107';
+    font-family: 'Font Awesome 5 Pro';
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+.faq-area .card-header h5 button[aria-expanded='true']:after {
+    content: '\f106';
+}
+.faq-area .card-body {
+    padding: 0 20px 20px 20px;
+    color: #666;
+    line-height: 1.8;
+}
+

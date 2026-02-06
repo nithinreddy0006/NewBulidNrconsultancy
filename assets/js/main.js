@@ -348,6 +348,59 @@ jQuery(document).ready(function($) {
     });
 
 
+    // Search Functionality
+    $('.search-btn a').on('click', function(e) {
+        e.preventDefault();
+        var searchInput = $(this).closest('.search-box').find('input');
+        var query = searchInput.val();
+        
+        if (query) {
+             if (window.find) {
+                var found = window.find(query);
+                if (!found) {
+                     alert('Text not found on this page.');
+                }
+            } else {
+                alert('Your browser does not support this search feature.');
+            }
+        } else {
+            searchInput.focus();
+        }
+    });
+
+    $('.search-box form').on('submit', function(e) {
+        e.preventDefault();
+        $('.search-btn a').click();
+    });
+
 }(jQuery));
 
+
+
+    
+    // Search Functionality
+    .search-btn a.on('click', function(e) {
+        e.preventDefault();
+        var searchInput = .closest('.search-box').find('input');
+        var query = searchInput.val();
+        
+        if (query) {
+            // Basic browser find
+            if (window.find) {
+                var found = window.find(query);
+                if (!found) {
+                     alert('Text not found on this page.');
+                }
+            } else {
+                alert('Your browser does not support this search feature.');
+            }
+        } else {
+            searchInput.focus();
+        }
+    });
+
+    .search-box form.on('submit', function(e) {
+        e.preventDefault();
+        .search-btn a.click();
+    });
 
