@@ -163,11 +163,32 @@ Description:
         line-height   : 36px;
         letter-spacing: 1px;
     }
-   .banner-social-wrap {
+    .header-banner-area {
+        display: block !important;
+        height: auto !important;
+        padding: 5px 0;
+        background: #0b0b0b; /* Match site black/dark theme */
+    }
+    .header-banner-area .row > div:first-child {
+        display: none; /* Hide the text column */
+    }
+    .banner-social-wrap {
         text-align : center;
-        margin-top : 7px;
-        border-top : 1px solid #657A84;
-        padding-top: 7px;
+        margin-top : 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        border-top: none;
+    }
+    .banner-social ul {
+        margin-bottom: 0;
+    }
+    .banner-social ul li {
+        margin: 0 5px;
     }
     div#facts .row > div {
         margin: 20px;
