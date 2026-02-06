@@ -323,7 +323,7 @@ Description:
     }
 
     /* Hide Contact Us button in header on mobile */
-    .header-btn {
+    .banner-contact {
         display: none !important;
     }
 
