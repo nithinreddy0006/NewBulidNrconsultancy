@@ -420,24 +420,7 @@ a.contact-btn:hover {
 
 
 .welcome-carousel .owl-dots {
-    position: absolute;
-    counter-reset: wlc-counter;
-    bottom: 50%;
-    right: 5%;
-    margin-bottom: -30px;
-}
-
-.welcome-carousel .owl-dots>div {
-    height: 30px;
-    width: 30px;
-    background: transparent;
-    border-radius: 50%;
-    position: relative;
-    z-index: 2;
-    margin: 7px 0;
-    border: 1px solid #0A66C2;
-    transition: all .3s;
-    overflow: hidden;
+    display: none !important;
 }
 
 .welcome-carousel .owl-dots>div:after {
@@ -2254,3 +2237,42 @@ p.single-soicial-text {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/* ==========================
+   READABILITY IMPROVEMENTS
+   ========================== */
+body {
+    color: #333333;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #111111;
+    font-weight: 700;
+}
+
+/* Enhancing text over video backgrounds */
+.wlc-title h1,
+.wlc-title p,
+.heading.white h2,
+.heading.white p,
+.heading.white strong {
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.85);
+}
+
+/* Ensuring skill box text is readable */
+.skill-box p {
+    color: #f1f1f1;
+    font-weight: 400;
+}
+
+
+/* Color Fixes for Video Overlay */
+.wlc-title h1,
+.wlc-title p,
+.heading.white h2,
+.heading.white p,
+.heading.white strong,
+.heading.white span {
+    color: #fff !important;
+}
+
