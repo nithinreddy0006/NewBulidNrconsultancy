@@ -379,13 +379,13 @@ Description:
 
 
     .logo img {
-        height: 65px !important;
+        height: 75px !important;
         max-height: none !important;
     }
 
     /* Sidebar Logo Fix for Mobile */
     .side-widgest .logo img {
-        height: 70px !important;
+        height: 75px !important;
         width: auto !important;
     }
 
