@@ -3207,3 +3207,117 @@ a.cbtn.cbnt2:hover {
     line-height: 1.7;
     font-weight: 300;
 }
+
+
+/* Unified Home Page Styling for Readability */
+
+/* Global Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+/* Base Body Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(180deg, #f8f9fa, #ffffff);
+}
+
+/* All Section Headings */
+.heading h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #1a1a1a !important;
+}
+
+.heading h2 span {
+    color: #0A66C2 !important;
+}
+
+.heading small {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ff3333 !important;
+    font-weight: 600;
+}
+
+/* About Section */
+.about-area {
+    background: #ffffff;
+}
+
+.about-area .about-text h4,
+.about-area .about-text p {
+    color: #333 !important;
+    line-height: 1.8;
+}
+
+/* Experience/Skills Section */
+.skill-area {
+    background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460) !important;
+}
+
+.skill-area .heading h2,
+.skill-area .heading small,
+.skill-area .info-content p {
+    color: #fff !important;
+}
+
+/* Services Section - Already styled with blue */
+
+/* Testimonials Section */
+.testimonials-area {
+    background: #f8f9fa !important;
+}
+
+.testimonials-area .testimonial-text h4 {
+    color: #333 !important;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.testimonials-area .testimonial-text p {
+    color: #666 !important;
+    font-weight: 500;
+}
+
+.testimonials-area .testimonial-text h5 {
+    color: #0A66C2 !important;
+}
+
+/* Blog Section */
+.blog-area {
+    background: #ffffff;
+}
+
+.blog-area .single-blog h5 {
+    color: #1a1a1a !important;
+    font-weight: 600;
+}
+
+.blog-area .single-blog p {
+    color: #666 !important;
+}
+
+/* Footer Area */
+.footer-area {
+    background: linear-gradient(135deg, #1a1a2e, #0f3460) !important;
+}
+
+.footer-area h5,
+.footer-area p,
+.footer-area a,
+.footer-area li {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Percentage Circles Section */
+.skill__circles {
+    background: linear-gradient(135deg, #1a1a2e, #16213e) !important;
+}
+
+.skill__circles .circle span,
+.skill__circles .circle strong {
+    color: #fff !important;
+}
