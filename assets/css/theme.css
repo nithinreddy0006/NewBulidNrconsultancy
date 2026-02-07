@@ -2915,3 +2915,29 @@ a.cbtn.cbnt2:hover {
 .skill-area .space-60 {
     background: transparent !important;
 }
+
+
+/* Clean Theme - Remove Background Colors */
+.skill-area {
+    background: transparent !important;
+}
+
+.skill__circles {
+    background: transparent !important;
+}
+
+.skill__circles .circle {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 2px solid rgba(10, 102, 194, 0.5) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+.skill__circles .circle::before {
+    background: linear-gradient(135deg, #0A66C2, #0088ff, #00aaff, #0A66C2) !important;
+}
+
+.skill__circles .circle strong {
+    background: linear-gradient(135deg, #0A66C2, #0088ff) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
