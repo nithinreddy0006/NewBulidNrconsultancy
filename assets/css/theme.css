@@ -49,7 +49,7 @@ FOOTER AREA CSS
 */
 
 .header-banner-area {
-    background: #2E3D44;
+    background: transparent;
     position: relative;
     z-index: 2;
 }
@@ -59,7 +59,7 @@ FOOTER AREA CSS
     top: 50%;
     right: 0;
     margin-top: -15px;
-    background: #2E3D44;
+    background: transparent;
 }
 
 .header-banner-area .owl-nav>div {
@@ -110,7 +110,7 @@ FOOTER AREA CSS
     top: 0;
     width: 100%;
     z-index: 99;
-    background: #000;
+    background: rgba(0, 0, 0, 0.3);
     transition: all 1s;
 }
 
@@ -2457,4 +2457,33 @@ a.cbtn.cbnt2:hover {
 .welcome-carousel video {
     display: block;
     border: none !important;
+}
+
+/* Force navigation items on one line */
+.stellarnav ul.navbarmneuclass {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.stellarnav ul.navbarmneuclass li {
+    display: inline-block !important;
+    float: none !important;
+    white-space: nowrap;
+}
+
+.stellarnav ul.navbarmneuclass li a {
+    padding: 5px 10px !important;
+    font-size: 14px;
+}
+
+/* Transparent header background on all pages */
+.header-area {
+    background: transparent !important;
+}
+
+.header-area.header-main {
+    background: transparent !important;
 }
