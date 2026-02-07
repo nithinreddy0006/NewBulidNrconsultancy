@@ -2941,3 +2941,12 @@ a.cbtn.cbnt2:hover {
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
 }
+
+
+/* Remove Rolling Animations Under Circles */
+.skill__circles .circle::before,
+.skill__circles .circle::after {
+    animation: none !important;
+    border: none !important;
+    background: transparent !important;
+}
