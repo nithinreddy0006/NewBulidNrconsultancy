@@ -2632,3 +2632,50 @@ a.cbtn.cbnt2:hover {
     animation: pulse 1.5s infinite;
     display: block;
 }
+
+
+/* Scrolling Background Images for Experience Tiles */
+@keyframes scrollBackground {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+}
+
+.experience-slider .skill-box {
+    background-size: 200% 200%;
+    animation: scrollBackground 10s ease infinite, pulse 2s infinite;
+}
+
+.experience-slider .skill-box:nth-child(1) {
+    background-image: linear-gradient(rgba(0, 40, 80, 0.85), rgba(0, 40, 80, 0.9)), url('../img/project/manufacturing.jpg');
+}
+
+.experience-slider .owl-item:nth-child(1) .skill-box {
+    background-image: linear-gradient(rgba(0, 40, 80, 0.85), rgba(0, 40, 80, 0.9)), url('../img/project/manufacturing.jpg');
+    background-size: 200% 200%;
+}
+
+.experience-slider .owl-item:nth-child(2) .skill-box {
+    background-image: linear-gradient(rgba(0, 60, 100, 0.85), rgba(0, 60, 100, 0.9)), url('../img/project/hospital.jpg');
+    background-size: 200% 200%;
+}
+
+.experience-slider .owl-item:nth-child(3) .skill-box {
+    background-image: linear-gradient(rgba(0, 50, 90, 0.85), rgba(0, 50, 90, 0.9)), url('../img/project/corporate.jpg');
+    background-size: 200% 200%;
+}
+
+.experience-slider .owl-item:nth-child(4) .skill-box {
+    background-image: linear-gradient(rgba(0, 45, 85, 0.85), rgba(0, 45, 85, 0.9)), url('../img/project/school.jpg');
+    background-size: 200% 200%;
+}
+
+.experience-slider .owl-item:nth-child(5) .skill-box {
+    background-image: linear-gradient(rgba(0, 55, 95, 0.85), rgba(0, 55, 95, 0.9)), url('../img/project/warehouse.jpg');
+    background-size: 200% 200%;
+}
+
+.experience-slider .owl-item:nth-child(6) .skill-box {
+    background-image: linear-gradient(rgba(0, 35, 75, 0.85), rgba(0, 35, 75, 0.9)), url('../img/project/corporate.jpg');
+    background-size: 200% 200%;
+}
