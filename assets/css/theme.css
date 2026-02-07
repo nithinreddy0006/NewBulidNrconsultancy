@@ -2988,3 +2988,38 @@ a.cbtn.cbnt2:hover {
     0% { transform: translateX(-100%); }
     100% { transform: translateX(100%); }
 }
+
+
+/* Stylish Text Logo with Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&family=Poppins:wght@300;400;600&display=swap');
+
+.header-area .logo .logo-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.header-area .logo .logo-text span:first-child {
+    font-weight: 800;
+    font-size: 32px;
+    background: linear-gradient(135deg, #0A66C2, #ff3333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+}
+
+.header-area .logo .logo-text span:last-child {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+}
+
+.header-area .logo:hover .logo-text {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 10px rgba(10, 102, 194, 0.5));
+}
