@@ -3044,3 +3044,48 @@ a.cbtn.cbnt2:hover {
     transform: translateX(5px);
     box-shadow: 0 5px 20px rgba(255, 51, 51, 0.4);
 }
+
+
+/* Services Section Background Color */
+.service-area {
+    background: linear-gradient(135deg, #0A66C2, #004d99, #003366) !important;
+    position: relative;
+}
+
+.service-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 20% 80%, rgba(255, 51, 51, 0.1), transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(10, 102, 194, 0.2), transparent 50%);
+    z-index: 0;
+}
+
+.service-area .container {
+    position: relative;
+    z-index: 1;
+}
+
+.service-area .heading h2,
+.service-area .heading small,
+.service-area .heading strong,
+.service-area .info-content p {
+    color: #fff !important;
+}
+
+.service-area .single-service {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.service-area .single-service:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
