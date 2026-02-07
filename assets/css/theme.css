@@ -2891,3 +2891,27 @@ a.cbtn.cbnt2:hover {
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 51, 51, 0.2);
 }
+
+
+/* Force Remove Grey Background - Match Circle Colors */
+.skill-area {
+    background: linear-gradient(135deg, #cc0033, #ff3366, #cc0066, #ff3333) !important;
+    background-size: 400% 400% !important;
+    animation: gradientShift 8s ease infinite !important;
+}
+
+.skill-area > div:not(.container):not(.skill__circles) {
+    background: transparent !important;
+}
+
+.skill__circles {
+    background: linear-gradient(135deg, rgba(204, 0, 51, 0.9), rgba(255, 51, 102, 0.9)) !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Footer area fix */
+.skill-area .space-100,
+.skill-area .space-60 {
+    background: transparent !important;
+}
