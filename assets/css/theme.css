@@ -2544,3 +2544,53 @@ a.cbtn.cbnt2:hover {
     animation: spin 4s linear infinite;
     display: inline-block;
 }
+
+
+/* Rolling Effects for Percentage Circles in Technical Skills */
+.technical-skills .single-tech-skill {
+    position: relative;
+}
+
+.technical-skills .single-tech-skill .progress-circle,
+.technical-skills .CircularProgressbar {
+    animation: rollIn 1s ease-out, pulse 3s infinite;
+}
+
+.technical-skills .CircularProgressbar-path {
+    animation: spin 10s linear infinite;
+    transform-origin: center center;
+}
+
+.skill-chart-circle {
+    animation: spin 15s linear infinite;
+}
+
+.skill-progress-wrap {
+    animation: pulse 2s infinite;
+}
+
+.skill-chart-area .chart-circle {
+    position: relative;
+}
+
+.skill-chart-area .chart-circle::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px dashed rgba(255, 51, 51, 0.3);
+    border-radius: 50%;
+    animation: spin 20s linear infinite;
+}
+
+.skill-chart-area .chart-circle::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    border: 2px dashed rgba(10, 102, 194, 0.3);
+    border-radius: 50%;
+    animation: spin 15s linear infinite reverse;
+}
