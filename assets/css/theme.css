@@ -3321,3 +3321,175 @@ body {
 .skill__circles .circle strong {
     color: #fff !important;
 }
+
+
+/* ===== MOBILE RESPONSIVE FIXES ===== */
+
+/* Mobile Devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    
+    /* Logo */
+    .header-area .logo .logo-text {
+        font-size: 20px !important;
+    }
+    .header-area .logo .logo-text span:first-child {
+        font-size: 24px !important;
+    }
+    .header-area .logo .logo-text span:last-child {
+        font-size: 14px !important;
+    }
+    
+    /* Navigation */
+    .stellarnav ul.navbarmneuclass {
+        flex-wrap: wrap !important;
+    }
+    .stellarnav ul li {
+        padding: 8px 10px !important;
+    }
+    .stellarnav ul li a {
+        font-size: 14px !important;
+    }
+    
+    /* Hero Section */
+    .single-welcome-area h1,
+    .single-welcome-area h2 {
+        font-size: 28px !important;
+        line-height: 1.3 !important;
+    }
+    .single-welcome-area p {
+        font-size: 14px !important;
+    }
+    
+    /* Section Headings */
+    .heading h2 {
+        font-size: 28px !important;
+    }
+    .heading strong.filltext {
+        font-size: 40px !important;
+    }
+    .heading small {
+        font-size: 12px !important;
+    }
+    
+    /* Experience Tiles */
+    .experience-slider .skill-box {
+        padding: 20px !important;
+        margin: 10px 5px !important;
+    }
+    .experience-slider .skill-box h5 {
+        font-size: 18px !important;
+    }
+    .experience-slider .skill-box p {
+        font-size: 13px !important;
+    }
+    
+    /* Percentage Circles */
+    .skill__circles .circle {
+        width: 120px !important;
+        height: 120px !important;
+        padding: 15px !important;
+        margin: 10px auto !important;
+    }
+    .skill__circles .circle strong {
+        font-size: 28px !important;
+    }
+    .skill__circles .circle span {
+        font-size: 11px !important;
+    }
+    
+    /* Services */
+    .service-area .single-service {
+        margin-bottom: 20px !important;
+        padding: 20px !important;
+    }
+    .service-area .service-text h4 {
+        font-size: 18px !important;
+    }
+    .service-area .service-text p {
+        font-size: 13px !important;
+    }
+    
+    /* Testimonials */
+    .testimonials-area .testimonial-text h4 {
+        font-size: 15px !important;
+    }
+    .testimonials-area .testimonial-text p {
+        font-size: 13px !important;
+    }
+    
+    /* About Section */
+    .about-area .about-text h4 {
+        font-size: 24px !important;
+    }
+    .about-area .about-text p {
+        font-size: 14px !important;
+    }
+    
+    /* Contact Page */
+    .contact-area input,
+    .contact-area textarea {
+        font-size: 14px !important;
+    }
+    
+    /* Footer */
+    .footer-area {
+        padding: 40px 15px !important;
+    }
+    .footer-area h5 {
+        font-size: 16px !important;
+    }
+    .footer-area p,
+    .footer-area li {
+        font-size: 13px !important;
+    }
+    
+    /* Buttons */
+    .cbtn {
+        padding: 10px 20px !important;
+        font-size: 14px !important;
+    }
+    
+    /* Spacing */
+    .section-padding {
+        padding: 40px 15px !important;
+    }
+    .space-60 {
+        height: 30px !important;
+    }
+    .space-100 {
+        height: 50px !important;
+    }
+}
+
+/* Extra Small Devices (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .header-area .logo .logo-text {
+        font-size: 16px !important;
+    }
+    .header-area .logo .logo-text span:first-child {
+        font-size: 20px !important;
+    }
+    .header-area .logo .logo-text span:last-child {
+        font-size: 12px !important;
+    }
+    
+    .heading h2 {
+        font-size: 22px !important;
+    }
+    .heading strong.filltext {
+        font-size: 30px !important;
+    }
+    
+    .single-welcome-area h1,
+    .single-welcome-area h2 {
+        font-size: 22px !important;
+    }
+    
+    .skill__circles .circle {
+        width: 100px !important;
+        height: 100px !important;
+    }
+    .skill__circles .circle strong {
+        font-size: 22px !important;
+    }
+}
