@@ -2491,19 +2491,42 @@ a.cbtn.cbnt2:hover {
 
 /* Rolling Circle Animations for Experience Section */
 @keyframes rollIn {
-    0% { transform: translateX(-100px) rotate(-360deg); opacity: 0; }
-    100% { transform: translateX(0) rotate(0deg); opacity: 1; }
+    0% {
+        transform: translateX(-100px) rotate(-360deg);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0) rotate(0deg);
+        opacity: 1;
+    }
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 @keyframes pulse {
-    0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 51, 51, 0.4); }
-    50% { transform: scale(1.02); box-shadow: 0 0 20px 10px rgba(255, 51, 51, 0.2); }
-    100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 51, 51, 0); }
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 51, 51, 0.4);
+    }
+
+    50% {
+        transform: scale(1.02);
+        box-shadow: 0 0 20px 10px rgba(255, 51, 51, 0.2);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(255, 51, 51, 0);
+    }
 }
 
 .experience-slider .skill-box {
@@ -2636,9 +2659,17 @@ a.cbtn.cbnt2:hover {
 
 /* Scrolling Background Images for Experience Tiles */
 @keyframes scrollBackground {
-    0% { background-position: 0% 0%; }
-    50% { background-position: 100% 100%; }
-    100% { background-position: 0% 0%; }
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
 }
 
 .experience-slider .skill-box {
@@ -2647,35 +2678,35 @@ a.cbtn.cbnt2:hover {
 }
 
 .experience-slider .skill-box:nth-child(1) {
-    background-image: linear-gradient(rgba(0, 40, 80, 0.85), rgba(0, 40, 80, 0.9)), url('../img/project/manufacturing.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/manufacturing.jpg');
 }
 
 .experience-slider .owl-item:nth-child(1) .skill-box {
-    background-image: linear-gradient(rgba(0, 40, 80, 0.85), rgba(0, 40, 80, 0.9)), url('../img/project/manufacturing.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/manufacturing.jpg');
     background-size: 200% 200%;
 }
 
 .experience-slider .owl-item:nth-child(2) .skill-box {
-    background-image: linear-gradient(rgba(0, 60, 100, 0.85), rgba(0, 60, 100, 0.9)), url('../img/project/hospital.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/hospital.jpg');
     background-size: 200% 200%;
 }
 
 .experience-slider .owl-item:nth-child(3) .skill-box {
-    background-image: linear-gradient(rgba(0, 50, 90, 0.85), rgba(0, 50, 90, 0.9)), url('../img/project/corporate.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/corporate.jpg');
     background-size: 200% 200%;
 }
 
 .experience-slider .owl-item:nth-child(4) .skill-box {
-    background-image: linear-gradient(rgba(0, 45, 85, 0.85), rgba(0, 45, 85, 0.9)), url('../img/project/school.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/school.jpg');
     background-size: 200% 200%;
 }
 
 .experience-slider .owl-item:nth-child(5) .skill-box {
-    background-image: linear-gradient(rgba(0, 55, 95, 0.85), rgba(0, 55, 95, 0.9)), url('../img/project/warehouse.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/warehouse.jpg');
     background-size: 200% 200%;
 }
 
 .experience-slider .owl-item:nth-child(6) .skill-box {
-    background-image: linear-gradient(rgba(0, 35, 75, 0.85), rgba(0, 35, 75, 0.9)), url('../img/project/corporate.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/corporate.jpg');
     background-size: 200% 200%;
 }
