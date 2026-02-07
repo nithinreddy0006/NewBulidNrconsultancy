@@ -3023,3 +3023,24 @@ a.cbtn.cbnt2:hover {
     transform: scale(1.05);
     filter: drop-shadow(0 0 10px rgba(10, 102, 194, 0.5));
 }
+
+
+/* Tile Link Styling */
+.experience-slider .skill-box .tile-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 20px;
+    background: linear-gradient(135deg, #0A66C2, #0088ff);
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.experience-slider .skill-box .tile-link:hover {
+    background: linear-gradient(135deg, #ff3333, #ff6666);
+    transform: translateX(5px);
+    box-shadow: 0 5px 20px rgba(255, 51, 51, 0.4);
+}
