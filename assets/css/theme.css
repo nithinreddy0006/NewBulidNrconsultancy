@@ -3154,3 +3154,56 @@ a.cbtn.cbnt2:hover {
 .service-area .service-text p {
     color: rgba(255, 255, 255, 0.9) !important;
 }
+
+
+/* Enhanced Typography for Services Section */
+.service-area .heading strong.filltext {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+    -webkit-text-stroke: 1px rgba(255,255,255,0.3);
+}
+
+.service-area .heading small {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #ff3333 !important;
+    font-weight: 600;
+}
+
+.service-area .heading h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff !important;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.service-area .heading h2 span {
+    background: linear-gradient(135deg, #ff3333, #ff6666);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.service-area .service-text h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.service-area .service-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+
+.service-area .info-content p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    font-weight: 300;
+}
