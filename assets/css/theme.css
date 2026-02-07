@@ -1,4 +1,4 @@
-/*
+﻿/*
 Theme Name:  grilroy personal Template;
 Version:1.0;
 
@@ -682,13 +682,45 @@ a.about-video {
 }
 
 .skill-box {
-    padding: 15px;
-    background: #0B0D0E;
-    box-shadow: 0px 65px 64.5px rgba(0, 0, 0, 0.39);
+    padding: 30px;
+    background-color: transparent !important;
+    /* Fix: Allow inline background-image to show */
+    box-shadow: none !important;
+    border: none !important;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    margin: 0;
     transform: translateY(0);
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+}
+
+/* Enhancements for text readability on images */
+.skill-box h5,
+.skill-box p,
+.skill-box small {
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.skill-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.9;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 
@@ -789,14 +821,45 @@ a.about-video {
 
 .primery-skill .skill-box {
     padding: 30px;
-    background: #fff;
-    box-shadow: 0px 65px 64.5px rgba(0, 0, 0, 0.1);
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    height: 480px;
+    /* Taller for premium feel */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 0 5px;
+    /* Slight gap between slides */
     transform: translateY(0);
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+}
+
+/* Enhancements for text readability on images */
+.skill-box h5,
+.skill-box p,
+.skill-box small {
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.skill-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.9;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .primery-skill .skill-box:hover {
@@ -882,8 +945,46 @@ a.about-video {
 }
 
 .skill-area.primery-skill.section-padding .row:last-child div.skill-box {
+    padding: 30px;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    height: 480px;
+    /* Taller for premium feel */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 0 5px;
+    /* Slight gap between slides */
+    transform: translateY(0);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+}
+
+/* Enhancements for text readability on images */
+.skill-box h5,
+.skill-box p,
+.skill-box small {
     position: relative;
     z-index: 2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.skill-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.9;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .skill-area.primery-skill.section-padding .row:last-child div.skill-box:after {
@@ -2530,8 +2631,46 @@ a.cbtn.cbnt2:hover {
 }
 
 .experience-slider .skill-box {
+    padding: 30px;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    height: 480px;
+    /* Taller for premium feel */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     position: relative;
     overflow: hidden;
+    border-radius: 12px;
+    margin: 0 5px;
+    /* Slight gap between slides */
+    transform: translateY(0);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+}
+
+/* Enhancements for text readability on images */
+.skill-box h5,
+.skill-box p,
+.skill-box small {
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.skill-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.9;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .experience-slider .skill-box::before {
@@ -2673,8 +2812,46 @@ a.cbtn.cbnt2:hover {
 }
 
 .experience-slider .skill-box {
-    background-size: 200% 200%;
-    animation: scrollBackground 10s ease infinite, pulse 2s infinite;
+    padding: 30px;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    height: 480px;
+    /* Taller for premium feel */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 0 5px;
+    /* Slight gap between slides */
+    transform: translateY(0);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+}
+
+/* Enhancements for text readability on images */
+.skill-box h5,
+.skill-box p,
+.skill-box small {
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.skill-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.9;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .experience-slider .skill-box:nth-child(1) {
@@ -2682,33 +2859,261 @@ a.cbtn.cbnt2:hover {
 }
 
 .experience-slider .owl-item:nth-child(1) .skill-box {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/manufacturing.jpg');
-    background-size: 200% 200%;
+    padding: 30px;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    height: 480px;
+    /* Taller for premium feel */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 0 5px;
+    /* Slight gap between slides */
+    transform: translateY(0);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+}
+
+/* Enhancements for text readability on images */
+.skill-box h5,
+.skill-box p,
+.skill-box small {
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.skill-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.9;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .experience-slider .owl-item:nth-child(2) .skill-box {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/hospital.jpg');
-    background-size: 200% 200%;
+    padding: 30px;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    height: 480px;
+    /* Taller for premium feel */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 0 5px;
+    /* Slight gap between slides */
+    transform: translateY(0);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+}
+
+/* Enhancements for text readability on images */
+.skill-box h5,
+.skill-box p,
+.skill-box small {
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.skill-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.9;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .experience-slider .owl-item:nth-child(3) .skill-box {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/corporate.jpg');
-    background-size: 200% 200%;
+    padding: 30px;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    height: 480px;
+    /* Taller for premium feel */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 0 5px;
+    /* Slight gap between slides */
+    transform: translateY(0);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+}
+
+/* Enhancements for text readability on images */
+.skill-box h5,
+.skill-box p,
+.skill-box small {
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.skill-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.9;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .experience-slider .owl-item:nth-child(4) .skill-box {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/school.jpg');
-    background-size: 200% 200%;
+    padding: 30px;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    height: 480px;
+    /* Taller for premium feel */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 0 5px;
+    /* Slight gap between slides */
+    transform: translateY(0);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+}
+
+/* Enhancements for text readability on images */
+.skill-box h5,
+.skill-box p,
+.skill-box small {
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.skill-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.9;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .experience-slider .owl-item:nth-child(5) .skill-box {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/warehouse.jpg');
-    background-size: 200% 200%;
+    padding: 30px;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    height: 480px;
+    /* Taller for premium feel */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 0 5px;
+    /* Slight gap between slides */
+    transform: translateY(0);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+}
+
+/* Enhancements for text readability on images */
+.skill-box h5,
+.skill-box p,
+.skill-box small {
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.skill-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.9;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .experience-slider .owl-item:nth-child(6) .skill-box {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/corporate.jpg');
-    background-size: 200% 200%;
+    padding: 30px;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    height: 480px;
+    /* Taller for premium feel */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 0 5px;
+    /* Slight gap between slides */
+    transform: translateY(0);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+}
+
+/* Enhancements for text readability on images */
+.skill-box h5,
+.skill-box p,
+.skill-box small {
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.skill-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.9;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 /* Attractive Text Styling for Experience Section */
@@ -2748,8 +3153,46 @@ a.cbtn.cbnt2:hover {
 
 /* Skill Box Text Styling */
 .experience-slider .skill-box {
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(5px);
+    padding: 30px;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    height: 480px;
+    /* Taller for premium feel */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    margin: 0 5px;
+    /* Slight gap between slides */
+    transform: translateY(0);
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.skill-box:hover {
+    transform: translateY(-8px);
+}
+
+/* Enhancements for text readability on images */
+.skill-box h5,
+.skill-box p,
+.skill-box small {
+    position: relative;
+    z-index: 2;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.skill-icon {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    opacity: 0.9;
+    z-index: 2;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .experience-slider .skill-box small {
@@ -2831,20 +3274,43 @@ a.cbtn.cbnt2:hover {
 
 /* Magic Background Effects for Chart Circles */
 @keyframes magicGlow {
-    0% { box-shadow: 0 0 20px rgba(255, 51, 51, 0.5), 0 0 40px rgba(255, 51, 51, 0.3), 0 0 60px rgba(255, 51, 51, 0.1); }
-    50% { box-shadow: 0 0 40px rgba(255, 51, 51, 0.8), 0 0 80px rgba(255, 51, 51, 0.5), 0 0 120px rgba(255, 51, 51, 0.3); }
-    100% { box-shadow: 0 0 20px rgba(255, 51, 51, 0.5), 0 0 40px rgba(255, 51, 51, 0.3), 0 0 60px rgba(255, 51, 51, 0.1); }
+    0% {
+        box-shadow: 0 0 20px rgba(255, 51, 51, 0.5), 0 0 40px rgba(255, 51, 51, 0.3), 0 0 60px rgba(255, 51, 51, 0.1);
+    }
+
+    50% {
+        box-shadow: 0 0 40px rgba(255, 51, 51, 0.8), 0 0 80px rgba(255, 51, 51, 0.5), 0 0 120px rgba(255, 51, 51, 0.3);
+    }
+
+    100% {
+        box-shadow: 0 0 20px rgba(255, 51, 51, 0.5), 0 0 40px rgba(255, 51, 51, 0.3), 0 0 60px rgba(255, 51, 51, 0.1);
+    }
 }
 
 @keyframes gradientShift {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 @keyframes floatUp {
-    0%, 100% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
 .skill__circles .circle {
@@ -2859,7 +3325,10 @@ a.cbtn.cbnt2:hover {
 .skill__circles .circle::before {
     content: '';
     position: absolute;
-    top: -3px; left: -3px; right: -3px; bottom: -3px;
+    top: -3px;
+    left: -3px;
+    right: -3px;
+    bottom: -3px;
     background: linear-gradient(135deg, #ff3333, #ff6666, #cc0066, #ff3333);
     background-size: 400% 400%;
     border-radius: 50%;
@@ -2870,7 +3339,10 @@ a.cbtn.cbnt2:hover {
 .skill__circles .circle::after {
     content: '';
     position: absolute;
-    top: -10px; left: -10px; right: -10px; bottom: -10px;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
     background: linear-gradient(135deg, transparent, rgba(255, 51, 51, 0.3), transparent);
     border-radius: 50%;
     z-index: -2;
@@ -2900,7 +3372,7 @@ a.cbtn.cbnt2:hover {
     animation: gradientShift 8s ease infinite !important;
 }
 
-.skill-area > div:not(.container):not(.skill__circles) {
+.skill-area>div:not(.container):not(.skill__circles) {
     background: transparent !important;
 }
 
@@ -2965,8 +3437,15 @@ a.cbtn.cbnt2:hover {
 }
 
 @keyframes logoGlow {
-    0%, 100% { filter: drop-shadow(0 0 10px rgba(10, 102, 194, 0.5)) drop-shadow(0 0 20px rgba(255, 51, 51, 0.3)); }
-    50% { filter: drop-shadow(0 0 20px rgba(10, 102, 194, 0.8)) drop-shadow(0 0 40px rgba(255, 51, 51, 0.5)); }
+
+    0%,
+    100% {
+        filter: drop-shadow(0 0 10px rgba(10, 102, 194, 0.5)) drop-shadow(0 0 20px rgba(255, 51, 51, 0.3));
+    }
+
+    50% {
+        filter: drop-shadow(0 0 20px rgba(10, 102, 194, 0.8)) drop-shadow(0 0 40px rgba(255, 51, 51, 0.5));
+    }
 }
 
 .header-area .logo:hover img {
@@ -2977,7 +3456,10 @@ a.cbtn.cbnt2:hover {
 .header-area .logo::before {
     content: '';
     position: absolute;
-    top: -5px; left: -5px; right: -5px; bottom: -5px;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
     background: linear-gradient(135deg, transparent, rgba(10, 102, 194, 0.3), transparent);
     border-radius: 10px;
     animation: shimmer 2s linear infinite;
@@ -2985,8 +3467,13 @@ a.cbtn.cbnt2:hover {
 }
 
 @keyframes shimmer {
-    0% { transform: translateX(-100%); }
-    100% { transform: translateX(100%); }
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
 }
 
 
@@ -3060,7 +3547,7 @@ a.cbtn.cbnt2:hover {
     width: 100%;
     height: 100%;
     background: radial-gradient(circle at 20% 80%, rgba(255, 51, 51, 0.1), transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(10, 102, 194, 0.2), transparent 50%);
+        radial-gradient(circle at 80% 20%, rgba(10, 102, 194, 0.2), transparent 50%);
     z-index: 0;
 }
 
@@ -3160,8 +3647,8 @@ a.cbtn.cbnt2:hover {
 .service-area .heading strong.filltext {
     font-family: 'Playfair Display', serif;
     font-size: 80px;
-    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
-    -webkit-text-stroke: 1px rgba(255,255,255,0.3);
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
 }
 
 .service-area .heading small {
@@ -3327,62 +3814,109 @@ body {
 
 /* Mobile Devices (max-width: 768px) */
 @media screen and (max-width: 768px) {
-    
+
     /* Logo */
     .header-area .logo .logo-text {
         font-size: 20px !important;
     }
+
     .header-area .logo .logo-text span:first-child {
         font-size: 24px !important;
     }
+
     .header-area .logo .logo-text span:last-child {
         font-size: 14px !important;
     }
-    
+
     /* Navigation */
     .stellarnav ul.navbarmneuclass {
         flex-wrap: wrap !important;
     }
+
     .stellarnav ul li {
         padding: 8px 10px !important;
     }
+
     .stellarnav ul li a {
         font-size: 14px !important;
     }
-    
+
     /* Hero Section */
     .single-welcome-area h1,
     .single-welcome-area h2 {
         font-size: 28px !important;
         line-height: 1.3 !important;
     }
+
     .single-welcome-area p {
         font-size: 14px !important;
     }
-    
+
     /* Section Headings */
     .heading h2 {
         font-size: 28px !important;
     }
+
     .heading strong.filltext {
         font-size: 40px !important;
     }
+
     .heading small {
         font-size: 12px !important;
     }
-    
+
     /* Experience Tiles */
     .experience-slider .skill-box {
-        padding: 20px !important;
-        margin: 10px 5px !important;
+        padding: 30px;
+        background: transparent !important;
+        box-shadow: none !important;
+        border: none !important;
+        height: 480px;
+        /* Taller for premium feel */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        position: relative;
+        overflow: hidden;
+        border-radius: 12px;
+        margin: 0 5px;
+        /* Slight gap between slides */
+        transform: translateY(0);
+        -webkit-transition: all .3s;
+        -o-transition: all .3s;
+        transition: all .3s;
     }
+
+    .skill-box:hover {
+        transform: translateY(-8px);
+    }
+
+    /* Enhancements for text readability on images */
+    .skill-box h5,
+    .skill-box p,
+    .skill-box small {
+        position: relative;
+        z-index: 2;
+        text-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+    }
+
+    .skill-icon {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        opacity: 0.9;
+        z-index: 2;
+        filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+    }
+
     .experience-slider .skill-box h5 {
         font-size: 18px !important;
     }
+
     .experience-slider .skill-box p {
         font-size: 13px !important;
     }
-    
+
     /* Percentage Circles */
     .skill__circles .circle {
         width: 120px !important;
@@ -3390,72 +3924,82 @@ body {
         padding: 15px !important;
         margin: 10px auto !important;
     }
+
     .skill__circles .circle strong {
         font-size: 28px !important;
     }
+
     .skill__circles .circle span {
         font-size: 11px !important;
     }
-    
+
     /* Services */
     .service-area .single-service {
         margin-bottom: 20px !important;
         padding: 20px !important;
     }
+
     .service-area .service-text h4 {
         font-size: 18px !important;
     }
+
     .service-area .service-text p {
         font-size: 13px !important;
     }
-    
+
     /* Testimonials */
     .testimonials-area .testimonial-text h4 {
         font-size: 15px !important;
     }
+
     .testimonials-area .testimonial-text p {
         font-size: 13px !important;
     }
-    
+
     /* About Section */
     .about-area .about-text h4 {
         font-size: 24px !important;
     }
+
     .about-area .about-text p {
         font-size: 14px !important;
     }
-    
+
     /* Contact Page */
     .contact-area input,
     .contact-area textarea {
         font-size: 14px !important;
     }
-    
+
     /* Footer */
     .footer-area {
         padding: 40px 15px !important;
     }
+
     .footer-area h5 {
         font-size: 16px !important;
     }
+
     .footer-area p,
     .footer-area li {
         font-size: 13px !important;
     }
-    
+
     /* Buttons */
     .cbtn {
         padding: 10px 20px !important;
         font-size: 14px !important;
     }
-    
+
     /* Spacing */
     .section-padding {
         padding: 40px 15px !important;
     }
+
     .space-60 {
         height: 30px !important;
     }
+
     .space-100 {
         height: 50px !important;
     }
@@ -3466,30 +4010,154 @@ body {
     .header-area .logo .logo-text {
         font-size: 16px !important;
     }
+
     .header-area .logo .logo-text span:first-child {
         font-size: 20px !important;
     }
+
     .header-area .logo .logo-text span:last-child {
         font-size: 12px !important;
     }
-    
+
     .heading h2 {
         font-size: 22px !important;
     }
+
     .heading strong.filltext {
         font-size: 30px !important;
     }
-    
+
     .single-welcome-area h1,
     .single-welcome-area h2 {
         font-size: 22px !important;
     }
-    
+
     .skill__circles .circle {
         width: 100px !important;
         height: 100px !important;
     }
+
     .skill__circles .circle strong {
         font-size: 22px !important;
     }
+}
+
+/* =========================================
+   PREMIUM REDESIGN: Service Tiles & Chart Circles
+   ========================================= */
+
+/* Service Tiles (.single-service) */
+.single-service {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 30px !important;
+    height: 350px;
+    display: flex;
+    /* Flex layout for bottom alignment */
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    z-index: 1;
+}
+
+.single-service:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease;
+}
+
+/* Typography & Icons in Service Tiles */
+.single-service .service-text h4,
+.single-service .service-text p {
+    color: #fff !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    position: relative;
+    z-index: 2;
+}
+
+.single-service .service-icon {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 15px;
+}
+
+.single-service .service-icon img,
+.single-service .service-icon i {
+    filter: brightness(0) invert(1);
+    /* Make icons white */
+}
+
+/* Remove decorative circles clutter */
+.single-service .circles-wrap {
+    display: none !important;
+}
+
+/* Background Images for Service Tiles using nth-child */
+/* 1. ESIC -> Manufacturing */
+.col-lg-4:nth-child(1) .single-service::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url('../../img/project/manufacturing.jpg') center/cover no-repeat;
+    z-index: -1;
+    transition: transform 0.5s ease;
+}
+
+/* 2. EPFO -> Corporate */
+.col-lg-4:nth-child(2) .single-service::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url('../../img/project/corporate.jpg') center/cover no-repeat;
+    z-index: -1;
+    transition: transform 0.5s ease;
+}
+
+/* 3. GST -> Government */
+.col-lg-4:nth-child(3) .single-service::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)), url('../../img/project/government.jpg') center/cover no-repeat;
+    z-index: -1;
+    transition: transform 0.5s ease;
+}
+
+/* Zoom effect on hover */
+.single-service:hover::before {
+    transform: scale(1.05);
+}
+
+/* Chart Circles Redesign */
+.skill__circles .circle {
+    background: transparent !important;
+    /* Remove white box */
+    box-shadow: none !important;
+    border: none !important;
+    margin-bottom: 20px;
+}
+
+.skill__circles .circle strong {
+    color: #333;
+    /* Keep numbers visible */
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.skill__circles .circle span {
+    color: #555;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }

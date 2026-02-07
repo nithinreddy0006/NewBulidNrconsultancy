@@ -87,8 +87,8 @@
                 <div class="row">
                     <div class="col-6 col-lg-3 align-self-center">
                         <a href="index.html" class="logo">
-                            <img src="assets/img/logo/logo-main.png" alt="NR Consultancy"
-                                style="height: 90px; width: auto;">
+                            <span class="logo-text"><span style="color: #0A66C2; font-weight: 800;">NR</span> <span
+                                    style="color: #333; font-weight: 400;">Consultancy</span></span>
                         </a>
                     </div>
                     <div class="col-6 text-center align-self-center">
@@ -129,8 +129,9 @@
                         <i class="fal fa-times"></i>
                     </div>
                     <div class="logo">
-                        <a href="index.html"><img src="assets/img/logo/logo-main.png" alt="NR Consultancy"
-                                style="height: 70px; width: auto;"></a>
+                        <a href="index.html"><span class="logo-text"><span
+                                    style="color: #0A66C2; font-weight: 800;">NR</span> <span
+                                    style="color: #fff; font-weight: 400;">Consultancy</span></span></a>
                     </div>
                     <div class="side-content">
                         <p>NR Consultancy is your trusted partner for ESIC, EPFO, and GST compliance. We operate 100%
@@ -262,414 +263,843 @@
         <!--:::::ABOUT AREA START :::::::-->
         <div class="about-area about-area-primery section-padding" id="about"
             style="position: relative; overflow: hidden; background: none !important; z-index: 1;">
+            <!-- Video Background -->
             <video autoplay muted loop playsinline
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
-                <source src="assets/video/boardroom_bg.mp4" type="video/mp4">
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2;">
+                <source src="assets/video/about_new.mp4" type="video/mp4">
             </video>
+            <!-- Animated Particles Overlay -->
+            <div class="about-particles"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; overflow: hidden;">
+                <div
+                    style="position: absolute; top: 20%; left: 10%; width: 10px; height: 10px; background: rgba(10,102,194,0.3); border-radius: 50%; animation: particleFloat 8s ease-in-out infinite;">
+                </div>
+                <div
+                    style="position: absolute; top: 60%; left: 80%; width: 15px; height: 15px; background: rgba(46,204,113,0.3); border-radius: 50%; animation: particleFloat 10s ease-in-out infinite 1s;">
+                </div>
+                <div
+                    style="position: absolute; top: 80%; left: 30%; width: 8px; height: 8px; background: rgba(10,102,194,0.2); border-radius: 50%; animation: particleFloat 6s ease-in-out infinite 2s;">
+                </div>
+                <div
+                    style="position: absolute; top: 40%; left: 70%; width: 12px; height: 12px; background: rgba(46,204,113,0.25); border-radius: 50%; animation: particleFloat 9s ease-in-out infinite 0.5s;">
+                </div>
+            </div>
             <div
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.95); z-index: -1;">
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.75); z-index: -1;">
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 align-self-center">
-                        <div class="about-shape">
-                            <div class="about-img-section text-center"
-                                style="background-image: url(assets/img/about/about1.png);background-size: cover;background-position: center">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 offset-lg-1 align-self-center">
-                        <div class="primery-heading">
-                            <strong class="filltext">About us</strong>
-                            <h2>Your Trusted Partner For
-                                <span>ESIC, EPFO & GST</span> Compliance
-                            </h2>
-                            <div class="space-20"></div>
-                            <p>NR Consultancy specializes in ESIC, EPFO, and GST compliance services. We help businesses
-                                across Warehouses, Hospitals, Schools, Corporate Offices, and Manufacturing sectors stay
-                                compliant with
-                                cost-efficient, expert solutions delivered 100% remotely via online meetings, email,
-                                calls, and WhatsApp. We have served 100+ companies and currently manage 50-60 active
-                                clients with monthly filings.</p>
-                            <div class="space-20"></div>
-                            <!-- Contact Info -->
-                            <div
-                                style="background: rgba(46,204,113,0.1); border-radius: 15px; padding: 20px; border: 1px solid rgba(46,204,113,0.3);">
-                                <h5 style="color: #2ecc71; margin-bottom: 15px;"><i class="fas fa-phone-alt"></i>
-                                    Contact Us</h5>
-                                <div style="display: flex; flex-wrap: wrap; gap: 15px;">
-                                    <a href="tel:+918801518663" style="color: #333; text-decoration: none;"><i
-                                            class="fas fa-mobile-alt" style="color: #2ecc71;"></i> (+91) 8801518663</a>
-                                    <a href="https://wa.me/918801518663" style="color: #333; text-decoration: none;"><i
-                                            class="fab fa-whatsapp" style="color: #25D366;"></i> WhatsApp</a>
-                                    <a href="mailto:nrconsultancyforyou@gmail.com"
-                                        style="color: #333; text-decoration: none;"><i class="fas fa-envelope"
-                                            style="color: #EA4335;"></i> Email</a>
+                        <div class="about-shape" style="position: relative;">
+                            <!-- Image Slideshow Carousel -->
+                            <div class="about-img-slideshow" style="
+                                position: relative;
+                                border-radius: 20px;
+                                overflow: hidden;
+                                box-shadow: 0 25px 60px rgba(10,102,194,0.25);
+                            ">
+                                <!-- Slide 1 -->
+                                <div class="about-slide" style="
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    opacity: 1;
+                                    animation: aboutSlideshow 15s ease-in-out infinite;
+                                ">
+                                    <img src="assets/img/about/about1.png" alt="NR Consultancy Office"
+                                        style="width: 100%; height: 400px; object-fit: cover;">
                                 </div>
-                                <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 10px;">
-                                    <a href="https://instagram.com/nrconsultancyforyou06" target="_blank"
-                                        style="color: #333; text-decoration: none;"><i class="fab fa-instagram"
-                                            style="color: #E4405F;"></i> Instagram</a>
-                                    <a href="https://linkedin.com/in/nrconsultancyforyou06" target="_blank"
-                                        style="color: #333; text-decoration: none;"><i class="fab fa-linkedin"
-                                            style="color: #0077B5;"></i> LinkedIn</a>
-                                    <a href="https://x.com/nrconsultancyforyou06" target="_blank"
-                                        style="color: #333; text-decoration: none;"><i class="fab fa-x-twitter"
-                                            style="color: #000;"></i> X</a>
+                                <!-- Slide 2 -->
+                                <div class="about-slide" style="
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    opacity: 0;
+                                    animation: aboutSlideshow 15s ease-in-out infinite 5s;
+                                ">
+                                    <img src="assets/img/project/corporate.jpg" alt="Corporate Compliance"
+                                        style="width: 100%; height: 400px; object-fit: cover;">
                                 </div>
-                            </div>
-                            <div class="space-20"></div>
-                            <a href="contact.html" class="cbtn cbnt1 fadeInDown animated">Get In Touch <i
-                                    class="fal fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--:::::ABOUT AREA END :::::::-->
-
-        <!--:::::EXPERT BIO AREA START :::::::-->
-        <div class="expert-area section-padding" id="expert">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-5">
-                        <div class="expert-img"
-                            style="border-radius: 10px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                            <img src="assets/img/project/corporate.jpg" alt="Nithin Reddy" style="width: 100%;">
-                        </div>
-                    </div>
-                    <div class="col-lg-7 align-self-center">
-                        <div class="expert-bio-area pl-lg-4">
-                            <div class="heading">
-                                <strong class="filltext">Consultant</strong>
-                                <small>MEET THE EXPERT</small>
-                                <h2>Nithin <span>Reddy</span></h2>
-                            </div>
-                            <h4 style="color: #ff3333; margin-bottom: 20px;">Statutory Compliance Expert</h4>
-
-                            <p>Nithin Reddy is a highly rated consultant with deep knowledge of the corporate compliance
-                                landscape. With over a decade of practical experience, he specializes in <strong>ESIC
-                                    and EPFO</strong> regulations, providing strategic advice that ensures 100% legal
-                                compliance for businesses.</p>
-
-                            <p>He expertly handles the entire compliance lifecycle, including:</p>
-                            <ul style="list-style: none; padding-left: 0; margin-bottom: 20px;">
-                                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle"
-                                        style="color: #0A66C2; margin-right: 10px;"></i><strong>Monthly Filings & Note
-                                        Sheet Preparation</strong>: Accurate and timely submission of returns.</li>
-                                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle"
-                                        style="color: #0A66C2; margin-right: 10px;"></i><strong>New Firm
-                                        Registration</strong>: Seamless onboarding for Proprietorships, Partnerships,
-                                    and PvT Ltd companies.</li>
-                                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle"
-                                        style="color: #0A66C2; margin-right: 10px;"></i><strong>Claims &
-                                        Settlements</strong>: Assisting employees with PF withdrawals, transfers, and
-                                    ESI benefits.</li>
-                                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle"
-                                        style="color: #0A66C2; margin-right: 10px;"></i><strong>Audit & Inspection
-                                        Support</strong>: Handling departmental notices and representing clients during
-                                    inspections.</li>
-                                <li style="margin-bottom: 10px;"><i class="fas fa-check-circle"
-                                        style="color: #0A66C2; margin-right: 10px;"></i><strong>Grievance
-                                        Redressal</strong>: Resolving complex employee issues like name corrections and
-                                    KYC updates.</li>
-                            </ul>
-
-                            <p>His 100% remote working model allows him to serve 500+ clients efficiently across India,
-                                delivering "Best in Market" advice without the need for physical visits.</p>
-
-                            <div class="expert-stats">
-                                <div class="row text-center">
-                                    <div class="col-4 border-right">
-                                        <h2 style="color: #0A66C2; font-size: 36px; margin-bottom: 5px;">10+</h2>
-                                        <span style="font-size: 14px; text-transform: uppercase;">Years
-                                            Experience</span>
-                                    </div>
-                                    <div class="col-4 border-right">
-                                        <h2 style="color: #0A66C2; font-size: 36px; margin-bottom: 5px;">500+</h2>
-                                        <span style="font-size: 14px; text-transform: uppercase;">Companies
-                                            Managed</span>
-                                    </div>
-                                    <div class="col-4">
-                                        <h2 style="color: #0A66C2; font-size: 36px; margin-bottom: 5px;">100%</h2>
-                                        <span style="font-size: 14px; text-transform: uppercase;">Compliance Rate</span>
-                                    </div>
+                                <!-- Slide 3 -->
+                                <div class="about-slide" style="
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    opacity: 0;
+                                    animation: aboutSlideshow 15s ease-in-out infinite 10s;
+                                ">
+                                    <img src="assets/img/project/warehouse.jpg" alt="Warehouse Operations"
+                                        style="width: 100%; height: 400px; object-fit: cover;">
                                 </div>
+                                <!-- Static placeholder for height -->
+                                <div style="height: 400px;"></div>
+                                <!-- Slide indicators -->
+                                <div style="
+                                    position: absolute;
+                                    bottom: 15px;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    display: flex;
+                                    gap: 8px;
+                                    z-index: 5;
+                                ">
+                                    <span
+                                        style="width: 30px; height: 4px; background: rgba(255,255,255,0.5); border-radius: 2px; animation: indicatorActive 15s ease-in-out infinite;"></span>
+                                    <span
+                                        style="width: 30px; height: 4px; background: rgba(255,255,255,0.5); border-radius: 2px; animation: indicatorActive 15s ease-in-out infinite 5s;"></span>
+                                    <span
+                                        style="width: 30px; height: 4px; background: rgba(255,255,255,0.5); border-radius: 2px; animation: indicatorActive 15s ease-in-out infinite 10s;"></span>
+                                </div>
+                                <!-- Gradient overlay -->
+                                <div style="
+                                    position: absolute;
+                                    bottom: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 80px;
+                                    background: linear-gradient(transparent, rgba(0,0,0,0.4));
+                                    pointer-events: none;
+                                "></div>
                             </div>
-
-                            <a href="contact.html" class="cbtn cbnt1">Book a Consultation <i
-                                    class="fal fa-angle-right"></i></a>
+                            <!-- Decorative elements -->
+                            <div style="
+                                position: absolute;
+                                top: -20px;
+                                right: -20px;
+                                width: 80px;
+                                height: 80px;
+                                border: 3px solid #0A66C2;
+                                border-radius: 50%;
+                                opacity: 0.3;
+                                animation: rotateElement 20s linear infinite;
+                            "></div>
+                            <div style="
+                                position: absolute;
+                                bottom: -15px;
+                                left: -15px;
+                                width: 60px;
+                                height: 60px;
+                                background: linear-gradient(135deg, #2ecc71, #27ae60);
+                                border-radius: 10px;
+                                opacity: 0.2;
+                                animation: pulseElement 3s ease-in-out infinite;
+                            "></div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!--:::::EXPERT BIO AREA END :::::::-->
-
-        <!--:::::SERVICE AREA START :::::::-->
-        <div class="service-area service-primery padding-top" id="service"
-            style="position: relative; overflow: hidden; background: none !important; z-index: 1;">
-            <video autoplay muted loop playsinline
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
-                <source src="assets/video/service_new.mp4" type="video/mp4">
-            </video>
-            <div
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.95); z-index: -1;">
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center" style="margin-bottom: 40px;">
-                        <h2>Our <span style="color: #2ecc71;">Services</span></h2>
-                        <p>Professional ESIC, EPFO & GST compliance services for all sectors</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="single-service pricing2">
-                            <div class="service-icon">
-                                <i class="fas fa-file-medical" style="font-size: 40px; color: #2ecc71;"></i>
-                            </div>
-                            <div class="service-text">
-                                <h4>ESIC Services</h4>
-                                <p>Complete ESIC compliance including new registrations, monthly returns, claim
-                                    settlements, and employee coverage management.</p>
-                            </div>
-                            <div class="circles-wrap">
-                                <div class="circles">
-                                    <span class="circle circle-1"></span>
-                                    <span class="circle circle-2"></span>
-                                    <span class="circle circle-3"></span>
-                                    <span class="circle circle-4"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-service active pricing2">
-                            <div class="service-icon">
-                                <i class="fas fa-piggy-bank" style="font-size: 40px; color: #2ecc71;"></i>
-                            </div>
-                            <div class="service-text">
-                                <h4>EPFO Services</h4>
-                                <p>Complete EPFO compliance including PF registration, monthly ECR filing, KYC updates,
-                                    transfer claims, and withdrawal assistance.</p>
-                            </div>
-
-                            <div class="circles-wrap">
-                                <div class="circles">
-                                    <span class="circle circle-1"></span>
-                                    <span class="circle circle-2"></span>
-                                    <span class="circle circle-3"></span>
-                                    <span class="circle circle-4"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="single-service pricing2">
-                            <div class="service-icon">
-                                <i class="fas fa-receipt" style="font-size: 40px; color: #2ecc71;"></i>
-                            </div>
-                            <div class="service-text">
-                                <h4>GST Services</h4>
-                                <p>Complete GST compliance including new registration, monthly/quarterly returns, annual
-                                    filing, and reconciliation services.</p>
-                            </div>
-
-                            <div class="circles-wrap">
-                                <div class="circles">
-                                    <span class="circle circle-1"></span>
-                                    <span class="circle circle-2"></span>
-                                    <span class="circle circle-3"></span>
-                                    <span class="circle circle-4"></span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--:::::SERVICE AREA END :::::::-->
-
-        <!--:::::PROJECT AREA START :::::::-->
-        <div class="project-area project-area2 project-area-primery section-padding" id="portfolio"
-            style="position: relative; overflow: hidden; background: none !important; z-index: 1;">
-            <video autoplay muted loop playsinline
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
-                <source src="assets/video/industrial_bg.mp4" type="video/mp4">
-            </video>
-            <div
-                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.95); z-index: -1;">
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 align-self-center">
-                        <div class="primery-heading">
-                            <strong class="filltext">our clients</strong>
-                            <small>WORKING PROCESS</small>
-                            <h2>Ongoing <span>Client Projects</span></h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 align-self-center">
-                        <div class="primery-info-content">
-                            <p>We provide ESIC, EPFO & GST filing services to leading companies across Medical,
-                                Logistics, Healthcare & more sectors.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="space-60"></div>
-                <div class="row">
-                    <ul id="da-thumbs" class="da-thumbs portfolio-carousel2 owl-carousel">
-                        <li>
-                            <a href="portfolio.html">
-                                <img src="assets/img/project/project1.png" alt="Med Coverage">
-                                <div>
-                                    <span><strong>Med Coverage</strong><br><small style="font-size:10px;">USA Medical
-                                            Billing Services</small></span>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="portfolio.html">
-                                <img src="assets/img/project/project2.png" alt="Arjun Warehouses">
-                                <div>
-                                    <span><strong>Arjun Warehouses</strong><br><small style="font-size:10px;">Domestic
-                                            Logistics & Distribution</small></span>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="portfolio.html">
-                                <img src="assets/img/project/project3.png" alt="SR Hospitals">
-                                <div>
-                                    <span><strong>SR Hospitals</strong><br><small
-                                            style="font-size:10px;">Multi-Specialty Healthcare</small></span>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="portfolio.html">
-                                <img src="assets/img/project/project4.png" alt="Redefine Hospitals">
-                                <div>
-                                    <span><strong>Redefine Hospitals</strong><br><small style="font-size:10px;">Advanced
-                                            Healthcare Services</small></span>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="portfolio.html">
-                                <img src="assets/img/project/project2.png" alt="Omsai Hospital">
-                                <div>
-                                    <span><strong>Omsai Hospital</strong><br><small style="font-size:10px;">Quality
-                                            Healthcare Provider</small></span>
-                                </div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="portfolio.html">
-                                <img src="assets/img/project/project1.png" alt="Corporate Clients">
-                                <div>
-                                    <span><strong>IT Companies</strong><br><small style="font-size:10px;">Corporate
-                                            Sector Compliance</small></span>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="space-40"></div>
-                <!-- Client Stats -->
-                <div class="row">
-                    <div class="col-lg-12">
+                <div class="col-lg-6 offset-lg-1 align-self-center">
+                    <div class="primery-heading">
+                        <strong class="filltext">About us</strong>
+                        <h2>Your Trusted Partner For
+                            <span>ESIC, EPFO & GST</span> Compliance
+                        </h2>
+                        <div class="space-20"></div>
+                        <p>NR Consultancy specializes in ESIC, EPFO, and GST compliance services. We help businesses
+                            across Warehouses, Hospitals, Schools, Corporate Offices, and Manufacturing sectors stay
+                            compliant with
+                            cost-efficient, expert solutions delivered 100% remotely via online meetings, email,
+                            calls, and WhatsApp. We have served 100+ companies and currently manage 50-60 active
+                            clients with monthly filings.</p>
+                        <div class="space-20"></div>
+                        <!-- Contact Info -->
                         <div
-                            style="background: linear-gradient(135deg, #2ecc71, #27ae60); border-radius: 15px; padding: 30px; text-align: center;">
-                            <div class="row">
-                                <div class="col-md-3">
-                                    <h2 style="color: #fff; margin: 0;">100+</h2>
-                                    <p style="color: rgba(255,255,255,0.9); margin: 0;">Total Clients</p>
+                            style="background: rgba(46,204,113,0.1); border-radius: 15px; padding: 20px; border: 1px solid rgba(46,204,113,0.3);">
+                            <h5 style="color: #2ecc71; margin-bottom: 15px;"><i class="fas fa-phone-alt"></i>
+                                Contact Us</h5>
+                            <div style="display: flex; flex-wrap: wrap; gap: 15px;">
+                                <a href="tel:+918801518663" style="color: #333; text-decoration: none;"><i
+                                        class="fas fa-mobile-alt" style="color: #2ecc71;"></i> (+91) 8801518663</a>
+                                <a href="https://wa.me/918801518663" style="color: #333; text-decoration: none;"><i
+                                        class="fab fa-whatsapp" style="color: #25D366;"></i> WhatsApp</a>
+                                <a href="mailto:nrconsultancyforyou@gmail.com"
+                                    style="color: #333; text-decoration: none;"><i class="fas fa-envelope"
+                                        style="color: #EA4335;"></i> Email</a>
+                            </div>
+                            <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 10px;">
+                                <a href="https://instagram.com/nrconsultancyforyou06" target="_blank"
+                                    style="color: #333; text-decoration: none;"><i class="fab fa-instagram"
+                                        style="color: #E4405F;"></i> Instagram</a>
+                                <a href="https://linkedin.com/in/nrconsultancyforyou06" target="_blank"
+                                    style="color: #333; text-decoration: none;"><i class="fab fa-linkedin"
+                                        style="color: #0077B5;"></i> LinkedIn</a>
+                                <a href="https://x.com/nrconsultancyforyou06" target="_blank"
+                                    style="color: #333; text-decoration: none;"><i class="fab fa-x-twitter"
+                                        style="color: #000;"></i> X</a>
+                            </div>
+                        </div>
+                        <div class="space-20"></div>
+                        <a href="contact.html" class="cbtn cbnt1 fadeInDown animated">Get In Touch <i
+                                class="fal fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--:::::ABOUT AREA END :::::::-->
+
+    <!--:::::EXPERT BIO AREA START :::::::-->
+    <div class="expert-area section-padding" id="expert" style="position: relative; overflow: hidden;">
+        <!-- Animated Gradient Background -->
+        <div class="expert-bg-animated" style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 200%;
+                height: 100%;
+                background: linear-gradient(90deg, 
+                    #0A66C2 0%, 
+                    #1a7fd4 15%, 
+                    #2ecc71 30%, 
+                    #27ae60 45%, 
+                    #0A66C2 60%,
+                    #1a7fd4 75%,
+                    #2ecc71 90%,
+                    #0A66C2 100%);
+                animation: slideGradient 15s linear infinite;
+                z-index: 0;
+            "></div>
+        <!-- Overlay for readability -->
+        <div style="
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(255, 255, 255, 0.78);
+                z-index: 1;
+            "></div>
+        <!-- Floating decorative elements -->
+        <div class="expert-floating-shapes"
+            style="position: absolute; width: 100%; height: 100%; z-index: 2; pointer-events: none;">
+            <div
+                style="position: absolute; top: 10%; left: 5%; width: 80px; height: 80px; border-radius: 50%; background: linear-gradient(135deg, rgba(10,102,194,0.1), rgba(46,204,113,0.1)); animation: floatUp 6s ease-in-out infinite;">
+            </div>
+            <div
+                style="position: absolute; top: 60%; right: 10%; width: 60px; height: 60px; border-radius: 50%; background: linear-gradient(135deg, rgba(46,204,113,0.15), rgba(10,102,194,0.1)); animation: floatUp 8s ease-in-out infinite reverse;">
+            </div>
+            <div
+                style="position: absolute; bottom: 20%; left: 15%; width: 40px; height: 40px; border-radius: 50%; background: rgba(10,102,194,0.08); animation: floatUp 5s ease-in-out infinite;">
+            </div>
+        </div>
+
+        <div class="container" style="position: relative; z-index: 3;">
+            <div class="row">
+                <div class="col-lg-5">
+                    <!-- Enhanced Expert Image Slideshow -->
+                    <div class="expert-img-slideshow" style="
+                            border-radius: 20px; 
+                            overflow: hidden; 
+                            box-shadow: 0 20px 60px rgba(10,102,194,0.3), 0 0 40px rgba(46,204,113,0.15);
+                            transform: translateY(0);
+                            transition: transform 0.4s ease, box-shadow 0.4s ease;
+                            position: relative;
+                            height: 450px;
+                        "
+                        onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 30px 80px rgba(10,102,194,0.4), 0 0 60px rgba(46,204,113,0.2)';"
+                        onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 20px 60px rgba(10,102,194,0.3), 0 0 40px rgba(46,204,113,0.15)';">
+                        <!-- Decorative frame -->
+                        <div
+                            style="position: absolute; top: -5px; left: -5px; right: -5px; bottom: -5px; border: 3px solid transparent; border-image: linear-gradient(135deg, #0A66C2, #2ecc71) 1; z-index: 10; pointer-events: none;">
+                        </div>
+
+                        <!-- Slide 1 - Corporate -->
+                        <div class="expert-slide" style="
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 1;
+                            animation: expertSlideshow 16s ease-in-out infinite;
+                        ">
+                            <img src="assets/img/project/corporate.jpg" alt="Corporate Compliance"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+
+                        <!-- Slide 2 - Warehouse -->
+                        <div class="expert-slide" style="
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0;
+                            animation: expertSlideshow 16s ease-in-out infinite 4s;
+                        ">
+                            <img src="assets/img/project/warehouse.jpg" alt="Warehouse Compliance"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+
+                        <!-- Slide 3 - Hospital -->
+                        <div class="expert-slide" style="
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0;
+                            animation: expertSlideshow 16s ease-in-out infinite 8s;
+                        ">
+                            <img src="assets/img/project/hospital.jpg" alt="Healthcare Compliance"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+
+                        <!-- Slide 4 - Manufacturing -->
+                        <div class="expert-slide" style="
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0;
+                            animation: expertSlideshow 24s ease-in-out infinite 12s;
+                        ">
+                            <img src="assets/img/project/manufacturing.jpg" alt="Manufacturing Compliance"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+
+                        <!-- Slide 5 - Indian Market -->
+                        <div class="expert-slide" style="
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0;
+                            animation: expertSlideshow 24s ease-in-out infinite 16s;
+                        ">
+                            <img src="assets/img/project/corporate.jpg" alt="Indian Market Expertise"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                            <div
+                                style="position: absolute; top: 20px; right: 20px; background: rgba(0,0,0,0.6); color: #fff; padding: 5px 15px; border-radius: 20px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px;">
+                                🇮🇳 Indian Market</div>
+                        </div>
+
+                        <!-- Slide 6 - African Market -->
+                        <div class="expert-slide" style="
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            opacity: 0;
+                            animation: expertSlideshow 24s ease-in-out infinite 20s;
+                        ">
+                            <img src="assets/img/project/manufacturing.jpg" alt="African Market Expertise"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                            <div
+                                style="position: absolute; top: 20px; right: 20px; background: rgba(0,0,0,0.6); color: #fff; padding: 5px 15px; border-radius: 20px; font-size: 12px; font-weight: 600; letter-spacing: 0.5px;">
+                                🌍 African Market</div>
+                        </div>
+
+                        <!-- Slide indicators -->
+                        <div style="
+                            position: absolute;
+                            bottom: 15px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            display: flex;
+                            gap: 6px;
+                            z-index: 5;
+                        ">
+                            <span
+                                style="width: 25px; height: 4px; background: rgba(255,255,255,0.5); border-radius: 2px; animation: expertIndicator 24s ease-in-out infinite;"></span>
+                            <span
+                                style="width: 25px; height: 4px; background: rgba(255,255,255,0.5); border-radius: 2px; animation: expertIndicator 24s ease-in-out infinite 4s;"></span>
+                            <span
+                                style="width: 25px; height: 4px; background: rgba(255,255,255,0.5); border-radius: 2px; animation: expertIndicator 24s ease-in-out infinite 8s;"></span>
+                            <span
+                                style="width: 25px; height: 4px; background: rgba(255,255,255,0.5); border-radius: 2px; animation: expertIndicator 24s ease-in-out infinite 12s;"></span>
+                            <span
+                                style="width: 25px; height: 4px; background: rgba(255,255,255,0.5); border-radius: 2px; animation: expertIndicator 24s ease-in-out infinite 16s;"></span>
+                            <span
+                                style="width: 25px; height: 4px; background: rgba(255,255,255,0.5); border-radius: 2px; animation: expertIndicator 24s ease-in-out infinite 20s;"></span>
+                        </div>
+
+                        <!-- Gradient overlay -->
+                        <div style="
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100px;
+                            background: linear-gradient(transparent, rgba(0,0,0,0.5));
+                            pointer-events: none;
+                            z-index: 3;
+                        "></div>
+
+                        <!-- Caption overlay -->
+                        <div style="
+                            position: absolute;
+                            bottom: 40px;
+                            left: 20px;
+                            color: #fff;
+                            z-index: 4;
+                            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+                        ">
+                            <small
+                                style="font-size: 12px; text-transform: uppercase; letter-spacing: 2px; opacity: 0.9;">Serving
+                                All Industries</small>
+                        </div>
+                    </div>
+                    <!-- Floating badge -->
+                    <div style="
+                            position: absolute;
+                            bottom: -20px;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            background: linear-gradient(135deg, #0A66C2, #1a7fd4);
+                            color: #fff;
+                            padding: 12px 25px;
+                            border-radius: 50px;
+                            font-weight: 600;
+                            font-size: 14px;
+                            box-shadow: 0 10px 30px rgba(10,102,194,0.4);
+                            animation: pulse 2s ease-in-out infinite;
+                            z-index: 20;
+                        ">
+                        <i class="fas fa-award" style="margin-right: 8px;"></i> Top Rated Expert
+                    </div>
+                </div>
+                <div class="col-lg-6 offset-lg-1 align-self-center">
+                    <!-- Glassmorphism Bio Card -->
+                    <div class="expert-bio-area" style="
+                            background: rgba(255, 255, 255, 0.7);
+                            backdrop-filter: blur(10px);
+                            -webkit-backdrop-filter: blur(10px);
+                            border-radius: 20px;
+                            padding: 40px;
+                            border: 1px solid rgba(255, 255, 255, 0.8);
+                            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+                        ">
+                        <div class="heading">
+                            <strong class="filltext">Consultant</strong>
+                            <small style="
+                                    background: linear-gradient(135deg, #0A66C2, #2ecc71);
+                                    -webkit-background-clip: text;
+                                    -webkit-text-fill-color: transparent;
+                                    background-clip: text;
+                                    font-weight: 700;
+                                    letter-spacing: 3px;
+                                    font-size: 14px;
+                                ">MEET THE EXPERT</small>
+                            <h2 style="margin-top: 10px;">Nithin <span style="color: #0A66C2;">Reddy</span></h2>
+                        </div>
+                        <h4 style="
+                                background: linear-gradient(135deg, #ff3333, #ff6b6b);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                                background-clip: text;
+                                margin-bottom: 20px;
+                                font-weight: 600;
+                            ">Statutory Compliance Expert</h4>
+
+                        <div style="font-size: 16px; line-height: 1.8; color: #444;">
+                            <p style="margin-bottom: 15px;">Nithin Reddy is a seasoned consultant with over <strong>10
+                                    years of experience</strong> in the corporate compliance landscape.</p>
+                            <p style="margin-bottom: 15px;">Starting his journey as a <strong>freelance
+                                    consultant</strong> part-time, he built a decade of practical expertise while
+                                simultaneously completing his <strong>Bachelor's in Commerce and Computer
+                                    Applications</strong>.</p>
+                            <p>His diverse background includes <strong>4 years as an IT Support Engineer</strong> for a
+                                major eCommerce platform, giving him a unique edge in delivering <strong>tech-enabled,
+                                    100% remote compliance solutions</strong>. He specializes in <strong
+                                    style="color: #0A66C2;">ESIC and EPFO</strong> regulations, ensuring seamless legal
+                                compliance for businesses.</p>
+                        </div>
+
+                        <h5 style="color: #0A66C2; margin: 25px 0 15px; font-weight: 600;"><i class="fas fa-star"
+                                style="margin-right: 8px;"></i>Core Expertise</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul style="list-style: none; padding-left: 0; margin-bottom: 20px;">
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start;">
+                                        <span
+                                            style="background: linear-gradient(135deg, #0A66C2, #2ecc71); color: #fff; width: 24px; height: 24px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 12px; flex-shrink: 0;">
+                                            <i class="fas fa-check" style="font-size: 12px;"></i>
+                                        </span>
+                                        <span><strong>Monthly Filings</strong> & Note Sheet Preparation</span>
+                                    </li>
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start;">
+                                        <span
+                                            style="background: linear-gradient(135deg, #0A66C2, #2ecc71); color: #fff; width: 24px; height: 24px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 12px; flex-shrink: 0;">
+                                            <i class="fas fa-check" style="font-size: 12px;"></i>
+                                        </span>
+                                        <span><strong>New Firm Registration</strong> for all company types</span>
+                                    </li>
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start;">
+                                        <span
+                                            style="background: linear-gradient(135deg, #0A66C2, #2ecc71); color: #fff; width: 24px; height: 24px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 12px; flex-shrink: 0;">
+                                            <i class="fas fa-check" style="font-size: 12px;"></i>
+                                        </span>
+                                        <span><strong>Claims & Settlements</strong> (PF, ESI benefits)</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul style="list-style: none; padding-left: 0; margin-bottom: 20px;">
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start;">
+                                        <span
+                                            style="background: linear-gradient(135deg, #0A66C2, #2ecc71); color: #fff; width: 24px; height: 24px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 12px; flex-shrink: 0;">
+                                            <i class="fas fa-check" style="font-size: 12px;"></i>
+                                        </span>
+                                        <span><strong>Audit & Inspection</strong> Support</span>
+                                    </li>
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start;">
+                                        <span
+                                            style="background: linear-gradient(135deg, #0A66C2, #2ecc71); color: #fff; width: 24px; height: 24px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 12px; flex-shrink: 0;">
+                                            <i class="fas fa-check" style="font-size: 12px;"></i>
+                                        </span>
+                                        <span><strong>Grievance Redressal</strong> & KYC updates</span>
+                                    </li>
+                                    <li style="margin-bottom: 12px; display: flex; align-items: flex-start;">
+                                        <span
+                                            style="background: linear-gradient(135deg, #0A66C2, #2ecc71); color: #fff; width: 24px; height: 24px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; margin-right: 12px; flex-shrink: 0;">
+                                            <i class="fas fa-check" style="font-size: 12px;"></i>
+                                        </span>
+                                        <span><strong>100% Remote</strong> Service Delivery</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Enhanced Stats with animation -->
+                        <div class="expert-stats" style="
+                                background: linear-gradient(135deg, rgba(10,102,194,0.05), rgba(46,204,113,0.05));
+                                border-radius: 15px;
+                                padding: 25px;
+                                margin: 25px 0;
+                                border: 1px solid rgba(10,102,194,0.1);
+                            ">
+                            <div class="row text-center">
+                                <div class="col-4" style="border-right: 1px solid rgba(10,102,194,0.2);">
+                                    <h2 style="
+                                            font-size: 42px; 
+                                            margin-bottom: 5px;
+                                            background: linear-gradient(135deg, #0A66C2, #2ecc71);
+                                            -webkit-background-clip: text;
+                                            -webkit-text-fill-color: transparent;
+                                            background-clip: text;
+                                        ">10+</h2>
+                                    <span
+                                        style="font-size: 12px; text-transform: uppercase; color: #666; letter-spacing: 1px;">Years
+                                        Experience</span>
                                 </div>
-                                <div class="col-md-3">
-                                    <h2 style="color: #fff; margin: 0;">50-60</h2>
-                                    <p style="color: rgba(255,255,255,0.9); margin: 0;">Monthly Filings</p>
+                                <div class="col-4" style="border-right: 1px solid rgba(10,102,194,0.2);">
+                                    <h2 style="
+                                            font-size: 42px; 
+                                            margin-bottom: 5px;
+                                            background: linear-gradient(135deg, #0A66C2, #2ecc71);
+                                            -webkit-background-clip: text;
+                                            -webkit-text-fill-color: transparent;
+                                            background-clip: text;
+                                        ">500+</h2>
+                                    <span
+                                        style="font-size: 12px; text-transform: uppercase; color: #666; letter-spacing: 1px;">Companies
+                                        Managed</span>
                                 </div>
-                                <div class="col-md-3">
-                                    <h2 style="color: #fff; margin: 0;">6+</h2>
-                                    <p style="color: rgba(255,255,255,0.9); margin: 0;">Industry Sectors</p>
+                                <div class="col-4">
+                                    <h2 style="
+                                            font-size: 42px; 
+                                            margin-bottom: 5px;
+                                            background: linear-gradient(135deg, #2ecc71, #27ae60);
+                                            -webkit-background-clip: text;
+                                            -webkit-text-fill-color: transparent;
+                                            background-clip: text;
+                                        ">100%</h2>
+                                    <span
+                                        style="font-size: 12px; text-transform: uppercase; color: #666; letter-spacing: 1px;">Compliance
+                                        Rate</span>
                                 </div>
-                                <div class="col-md-3">
-                                    <h2 style="color: #fff; margin: 0;">100%</h2>
-                                    <p style="color: rgba(255,255,255,0.9); margin: 0;">Compliance Rate</p>
-                                </div>
+                            </div>
+                        </div>
+
+                        <a href="contact.html" class="cbtn cbnt1" style="
+                                background: linear-gradient(135deg, #0A66C2, #1a7fd4);
+                                border: none;
+                                box-shadow: 0 10px 30px rgba(10,102,194,0.3);
+                                transition: all 0.3s ease;
+                            "
+                            onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 15px 40px rgba(10,102,194,0.4)';"
+                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 10px 30px rgba(10,102,194,0.3)';">
+                            Book a Consultation <i class="fal fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--:::::EXPERT BIO AREA END :::::::-->
+
+    <!--:::::SERVICE AREA START :::::::-->
+    <div class="service-area service-primery padding-top" id="service"
+        style="position: relative; overflow: hidden; background: none !important; z-index: 1;">
+        <video autoplay muted loop playsinline
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+            <source src="assets/video/service_new.mp4" type="video/mp4">
+        </video>
+        <div
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.80); z-index: -1;">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center" style="margin-bottom: 40px;">
+                    <h2>Our <span style="color: #2ecc71;">Services</span></h2>
+                    <p>Professional ESIC, EPFO & GST compliance services for all sectors</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="single-service pricing2">
+                        <div class="service-icon">
+                            <i class="fas fa-file-medical" style="font-size: 40px; color: #2ecc71;"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4>ESIC Services</h4>
+                            <p>Complete ESIC compliance including new registrations, monthly returns, claim
+                                settlements, and employee coverage management.</p>
+                        </div>
+                        <div class="circles-wrap">
+                            <div class="circles">
+                                <span class="circle circle-1"></span>
+                                <span class="circle circle-2"></span>
+                                <span class="circle circle-3"></span>
+                                <span class="circle circle-4"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-service active pricing2">
+                        <div class="service-icon">
+                            <i class="fas fa-piggy-bank" style="font-size: 40px; color: #2ecc71;"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4>EPFO Services</h4>
+                            <p>Complete EPFO compliance including PF registration, monthly ECR filing, KYC updates,
+                                transfer claims, and withdrawal assistance.</p>
+                        </div>
+
+                        <div class="circles-wrap">
+                            <div class="circles">
+                                <span class="circle circle-1"></span>
+                                <span class="circle circle-2"></span>
+                                <span class="circle circle-3"></span>
+                                <span class="circle circle-4"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="single-service pricing2">
+                        <div class="service-icon">
+                            <i class="fas fa-receipt" style="font-size: 40px; color: #2ecc71;"></i>
+                        </div>
+                        <div class="service-text">
+                            <h4>GST Services</h4>
+                            <p>Complete GST compliance including new registration, monthly/quarterly returns, annual
+                                filing, and reconciliation services.</p>
+                        </div>
+
+                        <div class="circles-wrap">
+                            <div class="circles">
+                                <span class="circle circle-1"></span>
+                                <span class="circle circle-2"></span>
+                                <span class="circle circle-3"></span>
+                                <span class="circle circle-4"></span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--:::::PROJECT AREA END :::::::-->
+    </div>
+    <!--:::::SERVICE AREA END :::::::-->
 
-
-
-
-        <!--:::::FOOTER AREA START :::::::-->
-        <div class="footer-area section-padding"
-            style="background-image: url(assets/img/bg/footer-bg.png);background-size: cover;background-position: center;background-repeat: no-repeat;">
-            <!--:::::LOGO AREA START :::::::-->
-            <div class="logo-carousel">
-                <div class="container">
-                    <div class="row">
-                        <div class="logos owl-carousel">
-                            <div class="single-logo-table">
-                                <div class="single-logo-table-cell">
-                                    <h4 style="color: #fff; opacity: 0.7;">ESIC</h4>
-                                </div>
+    <!--:::::PROJECT AREA START :::::::-->
+    <div class="project-area project-area2 project-area-primery section-padding" id="portfolio"
+        style="position: relative; overflow: hidden; background: none !important; z-index: 1;">
+        <video autoplay muted loop playsinline
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+            <source src="assets/video/client_new.mp4" type="video/mp4">
+        </video>
+        <div
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.80); z-index: -1;">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center">
+                    <div class="primery-heading">
+                        <strong class="filltext">our clients</strong>
+                        <small>WORKING PROCESS</small>
+                        <h2>Ongoing <span>Client Projects</span></h2>
+                    </div>
+                </div>
+                <div class="col-lg-5 align-self-center">
+                    <div class="primery-info-content">
+                        <p>We provide ESIC, EPFO & GST filing services to leading companies across Medical,
+                            Logistics, Healthcare & more sectors.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="space-60"></div>
+            <div class="row">
+                <ul id="da-thumbs" class="da-thumbs portfolio-carousel2 owl-carousel">
+                    <li>
+                        <a href="portfolio.html">
+                            <img src="assets/img/project/project1.png" alt="Med Coverage">
+                            <div>
+                                <span><strong>Med Coverage</strong><br><small style="font-size:10px;">USA Medical
+                                        Billing Services</small></span>
                             </div>
-                            <div class="single-logo-table">
-                                <div class="single-logo-table-cell">
-                                    <h4 style="color: #fff; opacity: 0.7;">EPFO</h4>
-                                </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">
+                            <img src="assets/img/project/project2.png" alt="Arjun Warehouses">
+                            <div>
+                                <span><strong>Arjun Warehouses</strong><br><small style="font-size:10px;">Domestic
+                                        Logistics & Distribution</small></span>
                             </div>
-                            <div class="single-logo-table">
-                                <div class="single-logo-table-cell">
-                                    <h4 style="color: #fff; opacity: 0.7;">GST</h4>
-                                </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">
+                            <img src="assets/img/project/project3.png" alt="SR Hospitals">
+                            <div>
+                                <span><strong>SR Hospitals</strong><br><small style="font-size:10px;">Multi-Specialty
+                                        Healthcare</small></span>
                             </div>
-                            <div class="single-logo-table">
-                                <div class="single-logo-table-cell">
-                                    <h4 style="color: #fff; opacity: 0.7;">MSME</h4>
-                                </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">
+                            <img src="assets/img/project/project4.png" alt="Redefine Hospitals">
+                            <div>
+                                <span><strong>Redefine Hospitals</strong><br><small style="font-size:10px;">Advanced
+                                        Healthcare Services</small></span>
                             </div>
-                            <div class="single-logo-table">
-                                <div class="single-logo-table-cell">
-                                    <h4 style="color: #fff; opacity: 0.7;">FSSAI</h4>
-                                </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">
+                            <img src="assets/img/project/project2.png" alt="Omsai Hospital">
+                            <div>
+                                <span><strong>Omsai Hospital</strong><br><small style="font-size:10px;">Quality
+                                        Healthcare Provider</small></span>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">
+                            <img src="assets/img/project/project1.png" alt="Corporate Clients">
+                            <div>
+                                <span><strong>IT Companies</strong><br><small style="font-size:10px;">Corporate
+                                        Sector Compliance</small></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="space-40"></div>
+            <!-- Client Stats -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div
+                        style="background: linear-gradient(135deg, #2ecc71, #27ae60); border-radius: 15px; padding: 30px; text-align: center;">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <h2 style="color: #fff; margin: 0;">100+</h2>
+                                <p style="color: rgba(255,255,255,0.9); margin: 0;">Total Clients</p>
+                            </div>
+                            <div class="col-md-3">
+                                <h2 style="color: #fff; margin: 0;">50-60</h2>
+                                <p style="color: rgba(255,255,255,0.9); margin: 0;">Monthly Filings</p>
+                            </div>
+                            <div class="col-md-3">
+                                <h2 style="color: #fff; margin: 0;">6+</h2>
+                                <p style="color: rgba(255,255,255,0.9); margin: 0;">Industry Sectors</p>
+                            </div>
+                            <div class="col-md-3">
+                                <h2 style="color: #fff; margin: 0;">100%</h2>
+                                <p style="color: rgba(255,255,255,0.9); margin: 0;">Compliance Rate</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="space-100"></div>
-            <!--:::::LOGO AREA END :::::::-->
+        </div>
+    </div>
+    <!--:::::PROJECT AREA END :::::::-->
+
+
+
+
+    <!--:::::FOOTER AREA START :::::::-->
+    <div class="footer-area section-padding"
+        style="background-image: url(assets/img/bg/footer-bg.png);background-size: cover;background-position: center;background-repeat: no-repeat;">
+        <!--:::::LOGO AREA START :::::::-->
+        <div class="logo-carousel">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 m-auto text-center">
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="#service">Services</a></li>
-                                <li><a href="#portfolio">Clients</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
-                            </ul>
+                    <div class="logos owl-carousel">
+                        <div class="single-logo-table">
+                            <div class="single-logo-table-cell">
+                                <h4 style="color: #fff; opacity: 0.7;">ESIC</h4>
+                            </div>
                         </div>
-                        <div class="space-40"></div>
-                        <div class="copyright">
-                            <p>Copyright © 2026 by <span>NR Consultancy</span> All Rights Reserved</p>
+                        <div class="single-logo-table">
+                            <div class="single-logo-table-cell">
+                                <h4 style="color: #fff; opacity: 0.7;">EPFO</h4>
+                            </div>
+                        </div>
+                        <div class="single-logo-table">
+                            <div class="single-logo-table-cell">
+                                <h4 style="color: #fff; opacity: 0.7;">GST</h4>
+                            </div>
+                        </div>
+                        <div class="single-logo-table">
+                            <div class="single-logo-table-cell">
+                                <h4 style="color: #fff; opacity: 0.7;">MSME</h4>
+                            </div>
+                        </div>
+                        <div class="single-logo-table">
+                            <div class="single-logo-table-cell">
+                                <h4 style="color: #fff; opacity: 0.7;">FSSAI</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!--:::::FOOTER AREA END :::::::-->
+        <div class="space-100"></div>
+        <!--:::::LOGO AREA END :::::::-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 m-auto text-center">
+                    <div class="footer-menu">
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="#service">Services</a></li>
+                            <li><a href="#portfolio">Clients</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="space-40"></div>
+                    <div class="copyright">
+                        <p>Copyright © 2026 by <span>NR Consultancy</span> All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--:::::FOOTER AREA END :::::::-->
 
     </div> <!--:::::SITE AREA END :::::::-->
 
