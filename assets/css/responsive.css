@@ -1893,3 +1893,57 @@ a {
 /*=========================================================================
                                 The end
 ==========================================================================*/
+
+/* =========================================
+   MOBILE FONTS & LAYOUT FIXES 2026
+   ========================================= */
+@media only screen and (max-width: 767px) {
+
+    /* Remove huge gaps */
+    .space-100,
+    .space-60 {
+        display: none !important;
+    }
+
+    /* Reduce section padding */
+    .section-padding {
+        padding: 40px 0 !important;
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    /* Typography fixes */
+    p {
+        font-size: 15px !important;
+        line-height: 1.6 !important;
+    }
+
+    h1 {
+        font-size: 30px !important;
+        line-height: 1.3 !important;
+    }
+
+    h2 {
+        font-size: 26px !important;
+        line-height: 1.3 !important;
+    }
+
+    h3 {
+        font-size: 22px !important;
+    }
+
+    h4 {
+        font-size: 18px !important;
+    }
+
+    /* Fix specific Service Area gap if any */
+    .service-area {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+
+    .project-area {
+        padding-top: 40px !important;
+        padding-bottom: 40px !important;
+    }
+}

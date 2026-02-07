@@ -4161,3 +4161,43 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+/* =========================================
+   MOBILE & NAVIGATION FIXES
+   ========================================= */
+
+/* Sticky Header */
+.sticky {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeInDown 0.3s ease;
+}
+
+/* Mobile Menu Close Button Fix */
+.stellarnav.mobile .close-menu {
+    position: sticky !important;
+    top: 0;
+    z-index: 10001;
+    /* Above menu items */
+    background: #fff;
+    /* Ensure visibility */
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.stellarnav.mobile .close-menu i {
+    font-size: 20px;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    /* Add border for better visibility */
+    border-radius: 4px;
+}
