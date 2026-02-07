@@ -2783,3 +2783,47 @@ a.cbtn.cbnt2:hover {
     font-size: 28px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
+
+/* Enhanced Chart Circle Styling */
+.skill__circles {
+    padding: 40px 0;
+}
+
+.skill__circles .circle {
+    background: linear-gradient(135deg, rgba(255, 51, 51, 0.1), rgba(255, 102, 102, 0.2));
+    border: 3px solid rgba(255, 51, 51, 0.5);
+    border-radius: 50%;
+    padding: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), inset 0 0 20px rgba(255, 51, 51, 0.1);
+    transition: all 0.3s ease;
+}
+
+.skill__circles .circle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 40px rgba(255, 51, 51, 0.4), inset 0 0 30px rgba(255, 51, 51, 0.2);
+    border-color: #ff3333;
+}
+
+.skill__circles .circle strong {
+    font-size: 42px !important;
+    font-weight: 800;
+    background: linear-gradient(135deg, #ff3333, #ff6666);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.skill__circles .circle span {
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    display: block;
+}
