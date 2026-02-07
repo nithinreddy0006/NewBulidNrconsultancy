@@ -2710,3 +2710,76 @@ a.cbtn.cbnt2:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url('../img/project/corporate.jpg');
     background-size: 200% 200%;
 }
+
+/* Attractive Text Styling for Experience Section */
+.skill-area .heading strong.filltext {
+    color: #ff3333 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.skill-area .heading small {
+    color: #fff !important;
+    background: linear-gradient(135deg, #ff3333, #ff6666);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.skill-area .heading h2 {
+    color: #fff !important;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    font-weight: 800;
+}
+
+.skill-area .heading h2 span {
+    background: linear-gradient(135deg, #ff3333, #ff6666);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.skill-area .info-content p {
+    color: #fff !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Skill Box Text Styling */
+.experience-slider .skill-box {
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+.experience-slider .skill-box small {
+    color: #ff3333 !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.experience-slider .skill-box h5 {
+    color: #fff !important;
+    font-size: 22px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.experience-slider .skill-box p {
+    color: rgba(255, 255, 255, 0.95) !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* Percentage Circle Text */
+.skill__circles .circle span {
+    color: #fff !important;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.skill__circles .circle strong {
+    color: #ff3333 !important;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
