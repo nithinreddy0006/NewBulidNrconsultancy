@@ -3089,3 +3089,68 @@ a.cbtn.cbnt2:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
 }
+
+
+/* Magic Effects for Service Icons */
+.service-area .service-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.service-area .service-icon img {
+    filter: drop-shadow(0 0 10px rgba(255, 51, 51, 0.5));
+    animation: floatUp 3s ease-in-out infinite, logoGlow 2s ease infinite;
+    transition: all 0.3s ease;
+}
+
+.service-area .single-service:nth-child(1) .service-icon img {
+    filter: drop-shadow(0 0 15px rgba(255, 51, 51, 0.7)) hue-rotate(0deg);
+}
+
+.service-area .single-service:nth-child(2) .service-icon img {
+    filter: drop-shadow(0 0 15px rgba(10, 102, 194, 0.7)) hue-rotate(200deg);
+}
+
+.service-area .single-service:nth-child(3) .service-icon img {
+    filter: drop-shadow(0 0 15px rgba(0, 200, 100, 0.7)) hue-rotate(100deg);
+}
+
+.service-area .single-service:hover .service-icon img {
+    transform: scale(1.2) rotate(10deg);
+    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.8));
+}
+
+/* Animated Service Cards */
+.service-area .single-service {
+    animation: pulse 3s infinite;
+}
+
+.service-area .single-service::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(135deg, #ff3333, #0A66C2, #00cc66, #ff3333);
+    background-size: 400% 400%;
+    border-radius: 17px;
+    z-index: -1;
+    animation: gradientShift 5s ease infinite;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.service-area .single-service:hover::before {
+    opacity: 1;
+}
+
+/* Color the service text */
+.service-area .service-text h4 {
+    color: #fff !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.service-area .service-text p {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
