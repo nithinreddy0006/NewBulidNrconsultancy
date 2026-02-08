@@ -21,6 +21,7 @@
 /*Define main font on google font*/
 /*Define main font on google font*/
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 /* Social Icon Brand Colors */
 .fab.fa-facebook-f {
@@ -2665,4 +2666,3 @@ SPACE CSS
 .space-10 {
     height: 10px;
 }
-

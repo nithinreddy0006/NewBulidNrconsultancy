@@ -1,0 +1,225 @@
+/* Illuminated Text Effects */
+
+/* Animation for the glow effect */
+@keyframes pulse-glow {
+    0% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.2), 0 0 10px rgba(10, 102, 194, 0.2);
+    }
+
+    50% {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.4), 0 0 20px rgba(10, 102, 194, 0.4), 0 0 30px rgba(10, 102, 194, 0.4);
+    }
+
+    100% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.2), 0 0 10px rgba(10, 102, 194, 0.2);
+    }
+}
+
+/* Glow for White/Light Text (Dark Backgrounds) */
+.illuminated-glow,
+.wlc-title h1,
+.heading.white h2,
+.heading.white strong.filltext,
+.single-welcome-area h1,
+.skill-box h5,
+.skill-box small {
+    font-family: 'Special Elite', cursive;
+    /* Typewriter font */
+    text-shadow: 0 0 10px rgba(10, 102, 194, 0.8),
+        0 0 20px rgba(10, 102, 194, 0.6),
+        0 0 30px rgba(10, 102, 194, 0.4);
+    animation: pulse-glow 3s infinite;
+}
+
+/* Specific stronger glow for Hero H1 */
+.wlc-title h1,
+.single-welcome-area h1 {
+    text-shadow: 0 0 15px rgba(10, 102, 194, 0.9),
+        0 0 30px rgba(10, 102, 194, 0.7),
+        0 0 45px rgba(10, 102, 194, 0.5);
+}
+
+
+/* Glow for Dark Text (Light Backgrounds) */
+.illuminated-dark-glow,
+.primery-heading h2,
+.primery-heading strong.filltext,
+.heading:not(.white) h2,
+.heading:not(.white) strong.filltext,
+.expert-bio-area h2,
+.expert-bio-area h4 {
+    font-family: 'Special Elite', cursive;
+    /* Typewriter font */
+    text-shadow: 0 0 8px rgba(10, 102, 194, 0.3),
+        0 0 12px rgba(10, 102, 194, 0.1);
+}
+
+/* Subtle glow for navigation links */
+.main-menu ul li a {
+    transition: all 0.3s ease;
+}
+
+.main-menu ul li a:hover,
+.main-menu ul li.current a {
+    color: #0A66C2 !important;
+    /* Ensure brand color on hover */
+    text-shadow: 0 0 8px rgba(10, 102, 194, 0.4);
+}
+
+/* Glow for primary buttons */
+.cbtn,
+.contact-btn,
+.video-play-button {
+    box-shadow: 0 0 15px rgba(10, 102, 194, 0.4);
+    transition: all 0.3s ease;
+}
+
+.cbtn:hover,
+.contact-btn:hover,
+.video-play-button:hover {
+    box-shadow: 0 0 25px rgba(10, 102, 194, 0.7),
+        0 0 10px rgba(255, 255, 255, 0.3) inset;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Logo Glow */
+.logo-text span {
+    transition: text-shadow 0.3s;
+}
+
+.logo:hover .logo-text span {
+    text-shadow: 0 0 10px rgba(10, 102, 194, 0.5);
+}
+
+/* Footer Links Glow */
+.footer-menu li a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(10, 102, 194, 0.8);
+}
+
+/* Chart Glow Effects */
+.skill__circles .circle canvas {
+    filter: drop-shadow(0 0 8px rgba(0, 198, 255, 0.6));
+    transition: filter 0.3s ease;
+}
+
+.skill__circles .circle:hover canvas {
+    filter: drop-shadow(0 0 15px rgba(0, 198, 255, 0.9));
+}
+
+.skill__circles .circle strong {
+    font-family: 'Special Elite', cursive;
+    /* Typewriter font */
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 198, 255, 0.8);
+    font-weight: 700;
+}
+
+.skill__circles .circle span {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 768px) {
+    .skill__circles .circle canvas {
+        filter: drop-shadow(0 0 5px rgba(0, 198, 255, 0.8));
+        /* Stronger default glow on mobile */
+    }
+}
+
+/* Chart Alignment Fix */
+.skill__circles .col-lg-3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    /* Space between rows on mobile */
+}
+
+.skill__circles .circle {
+    position: relative;
+    display: flex;
+    /* Flex to center content inside circle */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill__circles .circle canvas {
+    display: block;
+    /* Remove inline spacing */
+}
+
+.skill__circles .circle strong {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Center text precisely */
+    margin: 0;
+    line-height: 1;
+}
+
+.skill__circles .circle span {
+    position: absolute;
+    bottom: -30px;
+    /* Move label below circle */
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
+
+/* Typewriter Animation */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #0A66C2;
+    }
+}
+
+.typewriter-effect {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #0A66C2;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret .75s step-end infinite;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+/* Disable typewriter effect on mobile to prevent layout breakage */
+@media (max-width: 991px) {
+    .typewriter-effect {
+        white-space: normal;
+        border-right: none;
+        animation: none;
+        display: block;
+    }
+}
