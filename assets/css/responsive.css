@@ -224,8 +224,8 @@ Description:
     }
 
     .header-area.header-main {
-        top: 0 !important;
-        position: fixed !important;
+        top: auto !important;
+        position: relative !important;
         /* Keep logo bar sticky if needed, or relative */
         background: #0b0b0b;
     }
